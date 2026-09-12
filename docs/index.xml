@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonatan portafolio</title>
+    <link>https://yehonat.me/</link>
+    <description>Recent content on Jonatan portafolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jul 2020 20:05:18 -0500</lastBuildDate><atom:link href="https://yehonat.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MATA RATAS!</title>
+      <link>https://yehonat.me/portfolio/mataratas/</link>
+      <pubDate>Thu, 26 Aug 2021 01:30:55 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/mataratas/</guid>
+      <description>MATA RATAS fue desarrollado basado en la coyuntura del cierre del congreso nacional peruano. El juego se situa en un país ficticio llamado Perusalem, donde los políticos luego del cierre del congreso escapan con el dinero del pueblo y tu como jugador debes impedir que eso suceda.
+Videojuego desarrollado para dispositivos móviles, desarrollado bajo el estudio Backup Games sub división de desarrollo de contenido interactivo de la agencia de animación Plan B.</description>
+    </item>
+    
+    <item>
+      <title>POR AHÍ NO!!!</title>
+      <link>https://yehonat.me/portfolio/not-that-way/</link>
+      <pubDate>Thu, 26 Aug 2021 01:11:26 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/not-that-way/</guid>
+      <description>Por Ahí No!!! fue desarrollado como parte de mi proyecto final de carrera en el curso de Desarrollo de videojuegos 2D, con el cual gane el primer puesto de 36 juegos participantes.
+Como mecánica uso la solución de ataque y de movimiento con un solo movimiento que es el salto, al saltar el personaje dispara y se impulsa, puede hacerlo hasta 4 veces.
+Creditos  Programación : Jonatan Sosa @yehonat Arte: Jonatan Sosa @yehonat Sfx : Jonatan Sosa @yehonat Music : Gravity Sound GravitySonud  Juégalo en Itch.</description>
+    </item>
+    
+    <item>
+      <title>Where&#39;s My Sock</title>
+      <link>https://yehonat.me/portfolio/wheres-my-sock/</link>
+      <pubDate>Thu, 26 Aug 2021 00:58:54 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/wheres-my-sock/</guid>
+      <description>Where&amp;rsquo;s My Sock fue desarrollado para el Lima Game Jam 2021, edición que se desarrolló de forma remota, el tema fue la &amp;ldquo;búsqueda&amp;rdquo;, aquí tienes que buscar los calcetines que faltan antes que tu mamá regrese y te castigue.
+Aquí aplique el algoritmo de código genético para generar caracteres con características aleatorias.
+Creditos  Programación : Jonatan Sosa @yehonat Arte: Jonatan Sosa @yehonat Sfx : Jonatan Sosa @yehonat Music : Yu @yu  Juégalo en Itch.</description>
+    </item>
+    
+    <item>
+      <title>Giant Sword</title>
+      <link>https://yehonat.me/portfolio/giant-sword/</link>
+      <pubDate>Thu, 26 Aug 2021 00:33:17 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/giant-sword/</guid>
+      <description>Giant Sword fue desarrollado para el curso de Introducción a Unity de la página de E-Learning Domestika, es un plataformer arcade que consiste en eliminar a la mayor cantidad de enemigos sin morir en el intento.
+Gameplay Gameplay gracias al canal SoldadoPlayer7 TM
+  Creditos  Programación : Jonatan Sosa @yehonat Arte: Jonatan Sosa @yehonat Sfx : Jonatan Sosa @yehonat Music : Gravity Sound GravitySonud  Juégalo en Itch.io Giant Sword by yehonat</description>
+    </item>
+    
+    <item>
+      <title>Astronaut vs Aliens</title>
+      <link>https://yehonat.me/portfolio/astronaut-vs-aliens/</link>
+      <pubDate>Wed, 25 Aug 2021 23:58:50 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/astronaut-vs-aliens/</guid>
+      <description>Astronaut vs Aliens fue desarrollado para la Student Game Jam del año 2019 organizada por Area 51, se desarrolló un shooter de desplazamiento horizontal, la meta es acabar con las hordas de aliens que intentan dañar tu balón de oxígeno.
+Creditos  Programación : Jonatan Sosa @yehonat Arte: Jonatan Sosa @yehonat Sfx : Jonatan Sosa @yehonat Music : Gravity Sound GravitySonud  Juégalo en Itch.io Astronaut VS Aliens by yehonat</description>
+    </item>
+    
+    <item>
+      <title>Boy Adventure The Game</title>
+      <link>https://yehonat.me/portfolio/boy-adventure-the-game/</link>
+      <pubDate>Wed, 25 Aug 2021 22:30:29 -0500</pubDate>
+      
+      <guid>https://yehonat.me/portfolio/boy-adventure-the-game/</guid>
+      <description>Boy Adventure fue desarrollado para la GMTK Game Jam del año 2019, el tema Genre Without mechanics, use el género plataformas sin la mecánica de desplazamiento lateral, bloques te impiden moverte hacia alguna dirección y es necesario apretar el botón para poder desplazarse a un lado.
+Ganas el juego cuando logras escapar de la mazmorra en la que te encuentras atrapado.
+Gameplay Gameplay gracias al canal Cryptic Hybrid
+  Creditos  Programación : Jonatan Sosa @yehonat Arte: Jonatan Sosa @yehonat Sfx : Jonatan Sosa @yehonat Music : Gravity Sound GravitySonud  Juégalo en Itch.</description>
+    </item>
+    
+    <item>
+      <title>Sobrecarga de métodos en C#</title>
+      <link>https://yehonat.me/blog/csharp/method-overloading/</link>
+      <pubDate>Fri, 13 Aug 2021 14:06:55 -0500</pubDate>
+      
+      <guid>https://yehonat.me/blog/csharp/method-overloading/</guid>
+      <description>La sobrecarga (overloading) es un proceso a través del cual puedes asignarle a un solo método definiciones múltiples. Esto significa que puedes usar el mismo nombre del método para hacer dos cosas distintas.
+Digamos que necesitas un método para sumar dos cantidades, podrías crear un método AddNumbers() que sería responsable de sumar esos dos números. Sin embargo, el sumar dos strings (o cadenas) funciona de manera diferente; por ende, necesitarías un nuevo método llamado AddString().</description>
+    </item>
+    
+    <item>
+      <title>Modificador static (estático) en C#</title>
+      <link>https://yehonat.me/blog/csharp/static/</link>
+      <pubDate>Fri, 06 Aug 2021 13:04:05 -0500</pubDate>
+      
+      <guid>https://yehonat.me/blog/csharp/static/</guid>
+      <description>Los miembros estáticos, tales como las variables y los métodos son miembros que se comparten a través de todas las instancias de una clase, los miembros estáticos se pueden acceder directamente desde una clase sin instanciar un objeto de la clase primero.
+Normalmente las variables miembros son únicas para cada objeto de una clase, cada objeto de una clase tiene las mismas variables, cada uno tiene su propio valor.
+No obstante, con las variables estáticas cada objeto de la clase tiene la misma variable con el mismo valor, por lo tanto cambiar el valor de una variable estática en un lugar resultará en un cambio de valor en todas las otras.</description>
+    </item>
+    
+    <item>
+      <title>Operador ternario en C#</title>
+      <link>https://yehonat.me/blog/csharp/ternary-operator/</link>
+      <pubDate>Sat, 12 Jun 2021 16:21:10 -0500</pubDate>
+      
+      <guid>https://yehonat.me/blog/csharp/ternary-operator/</guid>
+      <description>El operador condicional ternario es una forma condensada para una instrucción if&amp;hellip;else. En su forma más básica, los operadores condicionales ternarios se usan para decidir entre dos valores basados en alguna expresiones de tipo bool.
+La sintaxis sigue el formato: // expresión bool ? true : false string message = health &amp;gt; 0 ? &amp;#34;Player is Alive&amp;#34; : &amp;#34;Player is Dead&amp;#34;;  El primer parámetro health &amp;gt; 0, es la expresión tipo bool, o la condición que se evalúa como booleana que te gustaría probar.</description>
+    </item>
+    
+    <item>
+      <title>Propiedades en C#</title>
+      <link>https://yehonat.me/blog/csharp/propierties/</link>
+      <pubDate>Sat, 05 Jun 2021 14:16:40 -0500</pubDate>
+      
+      <guid>https://yehonat.me/blog/csharp/propierties/</guid>
+      <description>Es muy común la necesidad de tener una manera de acceder a las variables miembros de una clase desde código que exista fuera de esa clase. Una manera en la que puedes hacerlo sería hacer las variables públicas para así accederlas directamente. Esto es suficiente pero hay otra manera, esa manera es usar propiedades.
+Las propiedades mismas actúan como variables y encapsulan variables miembros, las mismas que también podemos llamar campos.</description>
+    </item>
+    
+    <item>
+      <title>Conóceme</title>
+      <link>https://yehonat.me/about/</link>
+      <pubDate>Mon, 06 Jul 2020 18:19:46 -0500</pubDate>
+      
+      <guid>https://yehonat.me/about/</guid>
+      <description>Soy egresado ocupando el Primer Puesto con Beca por Excelencia Académica de la carrera de Ingeniería de Desarrollo de Juegos en el Instituto San Ignacio del Oyola.
+Me desempeño como desarrollador de Advergames para dispositivos móviles y navegadores web, además desarrollo aplicaciones móviles de Realidad Virtual.
+Desarrollo videojuegos independientes como yehonat, trabajo solo creando pequeños juegos arcade para dispositivos móviles.
+Soy Freelance haciendo páginas web usando el framework Hugo y el lenguaje de programación Go, también uso PHP.</description>
+    </item>
+    
+  </channel>
+</rss>
