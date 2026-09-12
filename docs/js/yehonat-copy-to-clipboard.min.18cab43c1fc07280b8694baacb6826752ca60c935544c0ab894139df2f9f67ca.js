@@ -1,6 +1,0 @@
-const highlights=document.getElementsByClassName("highlight");const alert=document.getElementById('alert');const close=document.getElementById('close-alert');if(close){close.addEventListener("click",()=>{alert.classList.remove("active");});}
-var flag=false;for(let index=0;index<highlights.length;index++){const temp=document.createElement('textarea');temp.setAttribute('readonly','');temp.style.position='absolute';temp.style.left='-9999px';document.body.appendChild(temp);const copyButton=document.createElement('button');const icon=document.createElement('i');copyButton.type='button';icon.type='i';icon.classList.add('far');icon.classList.add('fa-copy');copyButton.appendChild(icon);copyButton.classList.add('copy-button');copyButton.onclick=()=>{if(flag)
-{return;}
-flag=true;var time=1500;let highlight=copyButton.parentNode;temp.value=highlight.innerText;temp.select()
-document.execCommand('copy');alert.classList.add('active');setTimeout(()=>{alert.classList.remove("active");flag=false;},time);}
-highlights[index].appendChild(copyButton);}
