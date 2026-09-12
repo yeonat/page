@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Projects on Jonatan portafolio</title>
+		<link>https://yeonat.github.io/page/projects/</link>
+		<description>Recent content in Projects on Jonatan portafolio</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
+		
+			<atom:link href="https://yeonat.github.io/page/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Juegos</title>
+				<link>https://yeonat.github.io/page/projects/juegos/</link>
+				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/projects/juegos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Simuladores</title>
+				<link>https://yeonat.github.io/page/projects/simuladores/</link>
+				<pubDate>Mon, 26 Aug 2019 01:35:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/projects/simuladores/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

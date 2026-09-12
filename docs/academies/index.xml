@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Academies on Jonatan portafolio</title>
+		<link>https://yeonat.github.io/page/academies/</link>
+		<description>Recent content in Academies on Jonatan portafolio</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 07 May 2022 01:37:24 -0500</lastBuildDate>
+		
+			<atom:link href="https://yeonat.github.io/page/academies/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Stackskills</title>
+				<link>https://yeonat.github.io/page/academies/stackskills/</link>
+				<pubDate>Sat, 07 May 2022 01:37:24 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/academies/stackskills/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gamedev.tv</title>
+				<link>https://yeonat.github.io/page/academies/gamedev.tv/</link>
+				<pubDate>Thu, 05 May 2022 01:37:24 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/academies/gamedev.tv/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Zenva Academy</title>
+				<link>https://yeonat.github.io/page/academies/zenva-academy/</link>
+				<pubDate>Thu, 15 Jul 2021 00:14:06 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/academies/zenva-academy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Domestika</title>
+				<link>https://yeonat.github.io/page/academies/domestika/</link>
+				<pubDate>Tue, 12 May 2020 01:37:24 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/academies/domestika/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

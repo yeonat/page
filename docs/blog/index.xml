@@ -1,52 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on Jonatan portafolio</title>
-    <link>https://yehonat.me/blog/</link>
-    <description>Recent content in Blog on Jonatan portafolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2020 18:19:55 -0500</lastBuildDate><atom:link href="https://yehonat.me/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sobrecarga de métodos en C#</title>
-      <link>https://yehonat.me/blog/csharp/method-overloading/</link>
-      <pubDate>Fri, 13 Aug 2021 14:06:55 -0500</pubDate>
-      
-      <guid>https://yehonat.me/blog/csharp/method-overloading/</guid>
-      <description>La sobrecarga (overloading) es un proceso a través del cual puedes asignarle a un solo método definiciones múltiples. Esto significa que puedes usar el mismo nombre del método para hacer dos cosas distintas.
-Digamos que necesitas un método para sumar dos cantidades, podrías crear un método AddNumbers() que sería responsable de sumar esos dos números. Sin embargo, el sumar dos strings (o cadenas) funciona de manera diferente; por ende, necesitarías un nuevo método llamado AddString().</description>
-    </item>
-    
-    <item>
-      <title>Modificador static (estático) en C#</title>
-      <link>https://yehonat.me/blog/csharp/static/</link>
-      <pubDate>Fri, 06 Aug 2021 13:04:05 -0500</pubDate>
-      
-      <guid>https://yehonat.me/blog/csharp/static/</guid>
-      <description>Los miembros estáticos, tales como las variables y los métodos son miembros que se comparten a través de todas las instancias de una clase, los miembros estáticos se pueden acceder directamente desde una clase sin instanciar un objeto de la clase primero.
-Normalmente las variables miembros son únicas para cada objeto de una clase, cada objeto de una clase tiene las mismas variables, cada uno tiene su propio valor.
-No obstante, con las variables estáticas cada objeto de la clase tiene la misma variable con el mismo valor, por lo tanto cambiar el valor de una variable estática en un lugar resultará en un cambio de valor en todas las otras.</description>
-    </item>
-    
-    <item>
-      <title>Operador ternario en C#</title>
-      <link>https://yehonat.me/blog/csharp/ternary-operator/</link>
-      <pubDate>Sat, 12 Jun 2021 16:21:10 -0500</pubDate>
-      
-      <guid>https://yehonat.me/blog/csharp/ternary-operator/</guid>
-      <description>El operador condicional ternario es una forma condensada para una instrucción if&amp;hellip;else. En su forma más básica, los operadores condicionales ternarios se usan para decidir entre dos valores basados en alguna expresiones de tipo bool.
-La sintaxis sigue el formato: // expresión bool ? true : false string message = health &amp;gt; 0 ? &amp;#34;Player is Alive&amp;#34; : &amp;#34;Player is Dead&amp;#34;;  El primer parámetro health &amp;gt; 0, es la expresión tipo bool, o la condición que se evalúa como booleana que te gustaría probar.</description>
-    </item>
-    
-    <item>
-      <title>Propiedades en C#</title>
-      <link>https://yehonat.me/blog/csharp/propierties/</link>
-      <pubDate>Sat, 05 Jun 2021 14:16:40 -0500</pubDate>
-      
-      <guid>https://yehonat.me/blog/csharp/propierties/</guid>
-      <description>Es muy común la necesidad de tener una manera de acceder a las variables miembros de una clase desde código que exista fuera de esa clase. Una manera en la que puedes hacerlo sería hacer las variables públicas para así accederlas directamente. Esto es suficiente pero hay otra manera, esa manera es usar propiedades.
-Las propiedades mismas actúan como variables y encapsulan variables miembros, las mismas que también podemos llamar campos.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Blog on Jonatan portafolio</title>
+		<link>https://yeonat.github.io/page/blog/</link>
+		<description>Recent content in Blog on Jonatan portafolio</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 13 Aug 2021 14:06:55 -0500</lastBuildDate>
+		
+			<atom:link href="https://yeonat.github.io/page/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sobrecarga de métodos en C#</title>
+				<link>https://yeonat.github.io/page/blog/method-overloading/</link>
+				<pubDate>Fri, 13 Aug 2021 14:06:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/method-overloading/</guid>
+				<description>&lt;p&gt;La sobrecarga (overloading) es un proceso a través del cual puedes asignarle a un solo método definiciones múltiples. Esto significa que puedes usar el mismo nombre del método para hacer dos cosas distintas.&lt;/p&gt;&#xA;&lt;p&gt;Digamos que necesitas un método para sumar dos cantidades, podrías crear un método &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddNumbers()&lt;/code&gt;  que sería responsable de sumar esos dos números. Sin embargo, el sumar dos strings (o cadenas) funciona de manera diferente; por ende, necesitarías un nuevo método llamado  &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddString()&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Modificador static (estático) en C#</title>
+				<link>https://yeonat.github.io/page/blog/static/</link>
+				<pubDate>Fri, 06 Aug 2021 13:04:05 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/static/</guid>
+				<description>&lt;p&gt;Los miembros estáticos, tales como las variables y los métodos son miembros que se comparten a través de todas las instancias de una clase, los miembros estáticos se pueden acceder directamente desde una clase sin instanciar un objeto de la clase primero.&lt;/p&gt;&#xA;&lt;p&gt;Normalmente las variables miembros son únicas para cada objeto de una clase, cada objeto de una clase tiene las mismas variables, cada uno tiene su propio valor.&lt;/p&gt;&#xA;&lt;p&gt;No obstante, con las variables estáticas cada objeto de la clase tiene la misma variable con el mismo valor, por lo tanto cambiar el valor de una variable estática en un lugar resultará en un cambio de valor en todas las otras.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Operador ternario en C#</title>
+				<link>https://yeonat.github.io/page/blog/ternary-operator/</link>
+				<pubDate>Sat, 12 Jun 2021 16:21:10 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/ternary-operator/</guid>
+				<description>&lt;p&gt;El operador condicional ternario es una forma condensada para una instrucción if&amp;hellip;else. En su forma más básica, los operadores condicionales ternarios se usan para decidir entre dos valores basados en alguna expresiones de tipo bool.&lt;/p&gt;&#xA;&lt;h1 id=&#34;la-sintaxis-sigue-el-formato&#34;&gt;La sintaxis sigue el formato:&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// expresión bool ? true : false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;string&lt;/span&gt; message = health &amp;gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;0&lt;/span&gt; ? &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Player is Alive&amp;#34;&lt;/span&gt; : &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Player is Dead&amp;#34;&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;El primer parámetro &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;health &amp;gt; 0&lt;/code&gt;, es la expresión tipo &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;bool&lt;/code&gt;, o la condición que se evalúa como booleana que te gustaría probar. El fin de este parámetro se marca con un signo de interrogación de cierre.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Propiedades en C#</title>
+				<link>https://yeonat.github.io/page/blog/propierties/</link>
+				<pubDate>Sat, 05 Jun 2021 14:16:40 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/propierties/</guid>
+				<description>&lt;p&gt;Es muy común la necesidad de tener una manera de acceder a las variables miembros de una clase desde código que exista fuera de esa clase. Una manera en la que puedes hacerlo sería hacer las variables públicas para así accederlas directamente. Esto es suficiente pero hay otra manera, esa manera es usar propiedades.&lt;/p&gt;&#xA;&lt;p&gt;Las propiedades mismas actúan como variables y encapsulan variables miembros, las mismas que también podemos llamar campos. Esta encapsulación nos da más control sobre cuándo y cómo se accede a un campo.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

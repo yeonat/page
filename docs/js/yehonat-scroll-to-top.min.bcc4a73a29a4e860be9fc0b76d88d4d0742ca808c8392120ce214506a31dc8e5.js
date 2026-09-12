@@ -1,0 +1,1 @@
+const scrollToTop=document.getElementById("scroll-to-top");window.onscroll=function(){document.body.scrollTop>500||document.documentElement.scrollTop>500?scrollToTop.style.display="block":scrollToTop.style.display="none"}
