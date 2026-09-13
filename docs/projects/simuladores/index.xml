@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Simuladores on Jonatan Sosa | Portafolio</title>
-		<link>https://yeonat.github.io/page/projects/simuladores/</link>
+		<link>http://localhost:1313/page/projects/simuladores/</link>
 		<description>Recent content in Simuladores on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Sat, 12 Sep 2026 20:39:13 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/projects/simuladores/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/page/projects/simuladores/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>VR Fire Extinguisher Simulation</title>
-				<link>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</link>
+				<link>http://localhost:1313/page/portfolio/vr-fire-extinguisher-simulation/</link>
 				<pubDate>Sat, 12 Sep 2026 20:39:13 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</guid>
+				<guid>http://localhost:1313/page/portfolio/vr-fire-extinguisher-simulation/</guid>
 				<description>&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226311417?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;1-visión-general-del-proyecto&#34;&gt;1. Visión General del Proyecto&lt;/h2&gt;&#xA;&lt;p&gt;Una herramienta de entrenamiento en Realidad Virtual desarrollada en &lt;strong&gt;Unity 6&lt;/strong&gt; orientada a capacitar y evaluar al usuario en el uso correcto de extintores portátiles bajo el estándar internacional &lt;strong&gt;PASS&lt;/strong&gt; (&lt;em&gt;Pull, Aim, Squeeze, Sweep&lt;/em&gt; / Tirar, Apuntar, Presionar, Extender).&lt;/p&gt;&#xA;&lt;p&gt;El proyecto integra dos entornos principales accesibles desde un área central (Hub):&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>AR Obstetra</title>
-				<link>https://yeonat.github.io/page/portfolio/ar-obstetra/</link>
+				<link>http://localhost:1313/page/portfolio/ar-obstetra/</link>
 				<pubDate>Mon, 26 Aug 2019 01:35:55 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/ar-obstetra/</guid>
+				<guid>http://localhost:1313/page/portfolio/ar-obstetra/</guid>
 				<description>&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226063458?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo de un sistema de Realidad Aumentada (RA) orientado a la formación médica y clínica obstétrica, diseñado como herramienta de apoyo visual interactivo durante la instrucción de estudiantes. Implementada mediante Vuforia AR, la solución permite escanear material didáctico físico preexistente (guías impresas, manuales y maniquíes anatómicos) para superponer contenido tridimensional de alta fidelidad.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Care Fichas Interactivas</title>
-				<link>https://yeonat.github.io/page/portfolio/care-fichas-interactivas/</link>
+				<link>http://localhost:1313/page/portfolio/care-fichas-interactivas/</link>
 				<pubDate>Mon, 26 Aug 2019 01:34:55 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/care-fichas-interactivas/</guid>
+				<guid>http://localhost:1313/page/portfolio/care-fichas-interactivas/</guid>
 				<description>&lt;p&gt;La imagen de la portada pertenece al &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://care.org.pe/educacion-innovadora-e-inclusiva-la-apuesta-del-proyecto-aprendemos-por-mejorar-el-servicio-educativo-rural/&#34; target=&#34;_blank&#34;&gt;care.org.pe&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&#xA;&#x9;&#x9;&#x9;&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226057431?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo en Unity (C#) de una suite de aplicaciones educativas a gran escala en el marco de la alianza entre CARE Perú y el MINEDU, orientada a asegurar la continuidad pedagógica de estudiantes de primaria y secundaria en siete áreas curriculares clave (Matemáticas, Comunicación, Ciencia, entre otras) durante la emergencia sanitaria.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>VR Iluminarias</title>
-				<link>https://yeonat.github.io/page/portfolio/vr-iluminarias/</link>
+				<link>http://localhost:1313/page/portfolio/vr-iluminarias/</link>
 				<pubDate>Mon, 26 Aug 2019 01:32:55 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/vr-iluminarias/</guid>
+				<guid>http://localhost:1313/page/portfolio/vr-iluminarias/</guid>
 				<description>&lt;p&gt;La imagen de la portada pertenece al &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://iimp.org.pe/noticias/interna/iimp-lanza-curso-especializado-en-mecanica-de-rocas-subterraneas-con-enfoque-en-modelacion-numerica&#34; target=&#34;_blank&#34;&gt;Instituto de Ingenieros de Minas del Perú&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&#xA;&#x9;&#x9;&#x9;&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226048601?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo de un simulador inmersivo en Realidad Virtual (Unity / Meta Quest) para la auditoría y validación de estándares de iluminación (lux) en minería subterránea. El sistema replica condiciones lumínicas reales a partir de datos técnicos de luxómetros para garantizar fidelidad operativa. Se aplicaron técnicas avanzadas de optimización para hardware móvil standalone, asegurando una tasa de refresco estable y una experiencia fluida sin sacrificar precisión fotométrica.&lt;/p&gt;</description>
 			</item>
 	</channel>
