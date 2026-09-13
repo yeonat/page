@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Jonatan Sosa | Portafolio</title>
-		<link>http://localhost:1313/page/tags/</link>
+		<link>https://yeonat.github.io/page/tags/</link>
 		<description>Recent content in Tags on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 06 Aug 2021 13:04:05 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/page/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://yeonat.github.io/page/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Csharp</title>
-				<link>http://localhost:1313/page/tags/csharp/</link>
+				<link>https://yeonat.github.io/page/tags/csharp/</link>
 				<pubDate>Fri, 06 Aug 2021 13:04:05 -0500</pubDate>
-				<guid>http://localhost:1313/page/tags/csharp/</guid>
+				<guid>https://yeonat.github.io/page/tags/csharp/</guid>
 				<description></description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Stackskills on Jonatan Sosa | Portafolio</title>
-		<link>http://localhost:1313/page/academies/stackskills/</link>
+		<link>https://yeonat.github.io/page/academies/stackskills/</link>
 		<description>Recent content in Stackskills on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sat, 07 May 2022 01:37:24 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/page/academies/stackskills/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://yeonat.github.io/page/academies/stackskills/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Unity C# Survival Guide</title>
-				<link>http://localhost:1313/page/certificates/the-unity-csharp-survival-guide/</link>
+				<link>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</link>
 				<pubDate>Sat, 07 May 2022 01:37:24 -0500</pubDate>
-				<guid>http://localhost:1313/page/certificates/the-unity-csharp-survival-guide/</guid>
+				<guid>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</guid>
 				<description>&lt;h3 id=&#34;hahahugoshortcode14s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 	</channel>
