@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Juegos on Jonatan Sosa | Portafolio</title>
-		<link>https://yeonat.github.io/page/projects/juegos/</link>
-		<description>Recent content in Juegos on Jonatan Sosa | Portafolio</description>
+		<title>Unity on Jonatan Sosa | Portafolio</title>
+		<link>https://yeonat.github.io/page/projects/unity/</link>
+		<description>Recent content in Unity on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
+			<lastBuildDate>Sat, 12 Sep 2026 20:39:13 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/projects/juegos/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://yeonat.github.io/page/projects/unity/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Warrior Cats Clans of the Forest</title>
-				<link>https://yeonat.github.io/page/portfolio/warrior-cats-clans-of-the-forest/</link>
-				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/warrior-cats-clans-of-the-forest/</guid>
-				<description>&lt;h1 id=&#34;warrior-cats-clans-of-the-forest-trailer&#34;&gt;Warrior Cats Clans of the Forest Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/KydfEOzdNkw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--quest--achievement-systems&#34;&gt;Rol: Gameplay Programmer – Quest &amp;amp; Achievement Systems&lt;/h1&gt;&#xA;&lt;p&gt;En este RPG de acción y aventura basado en el universo literario de Warrior Cats, asumí la responsabilidad del diseño e implementación técnica de los sistemas troncales de progresión, tareas y metas del jugador:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Looney Tunes Wacky World of Sports</title>
-				<link>https://yeonat.github.io/page/portfolio/looney-tunes-wacky-world-of-sports/</link>
-				<pubDate>Fri, 11 Sep 2026 10:43:49 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/looney-tunes-wacky-world-of-sports/</guid>
-				<description>&lt;h1 id=&#34;looney-tunes-wacky-world-of-sports-trailer&#34;&gt;Looney Tunes Wacky World of Sports Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/eJIsVjqy6nY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--challenges--achievement-systems&#34;&gt;Rol: Gameplay Programmer – Challenges &amp;amp; Achievement Systems&lt;/h1&gt;&#xA;&lt;p&gt;En esta entrega multideporte arcade basada en la clásica franquicia de Warner Bros., formé parte del equipo de programación liderando la arquitectura e implementación técnica de los sistemas de progresión y desafíos transversales a los 4 deportes:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Avatar: The Last Airbender: Quest for Balance</title>
-				<link>https://yeonat.github.io/page/portfolio/avatar-the-last-airbender/</link>
-				<pubDate>Fri, 11 Sep 2026 10:21:39 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/avatar-the-last-airbender/</guid>
-				<description>&lt;h1 id=&#34;avatar-the-last-airbender-trailer&#34;&gt;Avatar: The Last Airbender Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1WsMzwqnqgc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--technical-scripting&#34;&gt;Rol: Gameplay Programmer &amp;amp; Technical Scripting&lt;/h1&gt;&#xA;&lt;p&gt;En este título oficial de acción y aventura cooperativo basado en la serie original, formé parte del equipo de desarrollo encargándome de la programación e integración técnica:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;Implementación de Sistemas de Diálogos:&lt;/em&gt; Integré los flujos y árboles de diálogo en el motor Unreal Engine, conectando triggers en escena, eventos de audio/texto y sincronización de secuencias narrativas sin intervenir en la redacción del guion.&lt;/p&gt;</description>
+				<title>VR Fire Extinguisher Simulation</title>
+				<link>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</link>
+				<pubDate>Sat, 12 Sep 2026 20:39:13 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</guid>
+				<description>&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226311417?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;1-visión-general-del-proyecto&#34;&gt;1. Visión General del Proyecto&lt;/h2&gt;&#xA;&lt;p&gt;Una herramienta de entrenamiento en Realidad Virtual desarrollada en &lt;strong&gt;Unity 6&lt;/strong&gt; orientada a capacitar y evaluar al usuario en el uso correcto de extintores portátiles bajo el estándar internacional &lt;strong&gt;PASS&lt;/strong&gt; (&lt;em&gt;Pull, Aim, Squeeze, Sweep&lt;/em&gt; / Tirar, Apuntar, Presionar, Extender).&lt;/p&gt;&#xA;&lt;p&gt;El proyecto integra dos entornos principales accesibles desde un área central (Hub):&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Snowbot Factory Rush</title>
@@ -89,6 +75,27 @@
 				<pubDate>Wed, 25 Aug 2021 22:30:29 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/portfolio/boy-adventure-the-game/</guid>
 				<description>&lt;h1 id=&#34;boy-adventure-the-game-gameplay&#34;&gt;Boy Adventure The Game gameplay&lt;/h1&gt;&#xA;&lt;p&gt;Gameplay gracias al canal &lt;em&gt;Cryptic Hybrid&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Jh45qx5CI4I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Boy Adventure es un plataformas de puzles creado durante la GMTK Game Jam 2019 explorando el reto de despojar a un género de su pilar básico: el desplazamiento horizontal continuo. Mediante un sistema de bloqueos direccionales y activación de pulsadores, el diseño traslada el peso jugable de la agilidad motriz a la resolución espacial y secuencial de acertijos para lograr escapar de una mazmorra.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AR Obstetra</title>
+				<link>https://yeonat.github.io/page/portfolio/ar-obstetra/</link>
+				<pubDate>Mon, 26 Aug 2019 01:35:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/portfolio/ar-obstetra/</guid>
+				<description>&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226063458?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo de un sistema de Realidad Aumentada (RA) orientado a la formación médica y clínica obstétrica, diseñado como herramienta de apoyo visual interactivo durante la instrucción de estudiantes. Implementada mediante Vuforia AR, la solución permite escanear material didáctico físico preexistente (guías impresas, manuales y maniquíes anatómicos) para superponer contenido tridimensional de alta fidelidad.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Care Fichas Interactivas</title>
+				<link>https://yeonat.github.io/page/portfolio/care-fichas-interactivas/</link>
+				<pubDate>Mon, 26 Aug 2019 01:34:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/portfolio/care-fichas-interactivas/</guid>
+				<description>&lt;p&gt;La imagen de la portada pertenece al &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://care.org.pe/educacion-innovadora-e-inclusiva-la-apuesta-del-proyecto-aprendemos-por-mejorar-el-servicio-educativo-rural/&#34; target=&#34;_blank&#34;&gt;care.org.pe&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&#xA;&#x9;&#x9;&#x9;&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226057431?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo en Unity (C#) de una suite de aplicaciones educativas a gran escala en el marco de la alianza entre CARE Perú y el MINEDU, orientada a asegurar la continuidad pedagógica de estudiantes de primaria y secundaria en siete áreas curriculares clave (Matemáticas, Comunicación, Ciencia, entre otras) durante la emergencia sanitaria.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>VR Iluminarias</title>
+				<link>https://yeonat.github.io/page/portfolio/vr-iluminarias/</link>
+				<pubDate>Mon, 26 Aug 2019 01:32:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/portfolio/vr-iluminarias/</guid>
+				<description>&lt;p&gt;La imagen de la portada pertenece al &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://iimp.org.pe/noticias/interna/iimp-lanza-curso-especializado-en-mecanica-de-rocas-subterraneas-con-enfoque-en-modelacion-numerica&#34; target=&#34;_blank&#34;&gt;Instituto de Ingenieros de Minas del Perú&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&#xA;&#x9;&#x9;&#x9;&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226048601?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;El video le pertenece a &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.herramientas.playtecedu.com/&#34; target=&#34;_blank&#34;&gt;PlayTec EDU 4.0&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Desarrollo de un simulador inmersivo en Realidad Virtual (Unity / Meta Quest) para la auditoría y validación de estándares de iluminación (lux) en minería subterránea. El sistema replica condiciones lumínicas reales a partir de datos técnicos de luxómetros para garantizar fidelidad operativa. Se aplicaron técnicas avanzadas de optimización para hardware móvil standalone, asegurando una tasa de refresco estable y una experiencia fluida sin sacrificar precisión fotométrica.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

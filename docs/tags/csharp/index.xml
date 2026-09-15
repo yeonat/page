@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 06 Aug 2021 13:04:05 -0500</lastBuildDate>
+			<lastBuildDate>Fri, 13 Aug 2021 14:06:55 -0500</lastBuildDate>
 		
 			<atom:link href="https://yeonat.github.io/page/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sobrecarga de métodos en C#</title>
+				<link>https://yeonat.github.io/page/blog/method-overloading/</link>
+				<pubDate>Fri, 13 Aug 2021 14:06:55 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/method-overloading/</guid>
+				<description>&lt;p&gt;La sobrecarga (overloading) es un proceso a través del cual puedes asignarle a un solo método definiciones múltiples. Esto significa que puedes usar el mismo nombre del método para hacer dos cosas distintas.&lt;/p&gt;&#xA;&lt;p&gt;Digamos que necesitas un método para sumar dos cantidades, podrías crear un método &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddNumbers()&lt;/code&gt;  que sería responsable de sumar esos dos números. Sin embargo, el sumar dos strings (o cadenas) funciona de manera diferente; por ende, necesitarías un nuevo método llamado  &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddString()&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Modificador static (estático) en C#</title>
 				<link>https://yeonat.github.io/page/blog/static/</link>
