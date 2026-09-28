@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Stacks on Jonatan Sosa | Portafolio</title>
+		<link>https://yeonat.github.io/page/stacks/</link>
+		<description>Recent content in Stacks on Jonatan Sosa | Portafolio</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
+		
+			<atom:link href="https://yeonat.github.io/page/stacks/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cpp</title>
+				<link>https://yeonat.github.io/page/stacks/cpp/</link>
+				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/stacks/cpp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Unreal</title>
+				<link>https://yeonat.github.io/page/stacks/unreal/</link>
+				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/stacks/unreal/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

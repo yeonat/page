@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Unreal on Jonatan Sosa | Portafolio</title>
-		<link>https://yeonat.github.io/page/projects/unreal/</link>
-		<description>Recent content in Unreal on Jonatan Sosa | Portafolio</description>
+		<title>Cpp on Jonatan Sosa | Portafolio</title>
+		<link>https://yeonat.github.io/page/stacks/cpp/</link>
+		<description>Recent content in Cpp on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/projects/unreal/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://yeonat.github.io/page/stacks/cpp/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Warrior Cats Clans of the Forest</title>
 				<link>https://yeonat.github.io/page/portfolio/warrior-cats-clans-of-the-forest/</link>
