@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Jonatan Sosa | Portafolio</title>
-		<link>https://yeonat.github.io/page/</link>
-		<description>Recent content on Jonatan Sosa | Portafolio</description>
+		<title>Unity on Jonatan Sosa | Portafolio</title>
+		<link>https://yeonat.github.io/page/stacks/unity/</link>
+		<description>Recent content in Unity on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 15 Sep 2026 14:20:55 -0500</lastBuildDate>
+			<lastBuildDate>Fri, 11 Sep 2026 09:55:20 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Currículum Vitae</title>
-				<link>https://yeonat.github.io/page/curriculum/</link>
-				<pubDate>Tue, 15 Sep 2026 14:20:55 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/curriculum/</guid>
-				<description>&lt;h2 id=&#34;si-deseas-ver-más-detalles-consulta-mi-perfil-dehahahugoshortcode17s0hbhb-yo-hahahugoshortcode17s1hbhb&#34;&gt;Si deseas ver más detalles, consulta mi perfil de&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.linkedin.com/in/jonatansosa/&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt;&#xD;&#xA;&#xD;&#xA; y/o &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://yeonat.github.io/page/resume.pdf&#34; target=&#34;_blank&#34;&gt;descarga mi currículum&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h2&gt;&#xA;&lt;h1 id=&#34;experiencia&#34;&gt;Experiencia:&lt;/h1&gt;&#xA;&lt;p&gt;&#xD;&#xA;&lt;img src=&#34;https://yeonat.github.io/page/curriculum/1630577354239.jpg&#34; alt=&#34;bamtang&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bamtang-games&#34;&gt;Bamtang Games&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Profesional&lt;/strong&gt; / &lt;em&gt;ago 2023 - jun 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador&lt;/strong&gt; / &lt;em&gt;ago 2022 - jul 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Junior&lt;/strong&gt; / &lt;em&gt;sep 2021 - jul 2022&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;proyectos&#34;&gt;Proyectos&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Warrior Cats: Clans Of The Forest&lt;/strong&gt; / &lt;em&gt;Lanzado en 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Looney Tunes: Wacky World Of Sports&lt;/strong&gt; / &lt;em&gt;Lanzado en 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Avatar: The Last Airbender: Quest For Balance&lt;/strong&gt; / &lt;em&gt;Lanzado en 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Disney All-Star Party (Disney Now)&lt;/strong&gt; / &lt;em&gt;Actualizado en 2021&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Como Programador de Gameplay y Sistemas, me especializo en la arquitectura de juego, progresión y optimización de rendimiento para PC, consolas y móviles en C++ (Unreal Engine 5) y C# (Unity). He diseñado sistemas modulares de misiones y retos, serialización de datos para mundos abiertos y asegurado el cumplimiento técnico de consolas (Sony TRC / Microsoft XR) en títulos para franquicias globales como Warrior Cats, Looney Tunes, Avatar: The Last Airbender y Disney.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Warrior Cats Clans of the Forest</title>
-				<link>https://yeonat.github.io/page/portfolio/warrior-cats-clans-of-the-forest/</link>
-				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/warrior-cats-clans-of-the-forest/</guid>
-				<description>&lt;h1 id=&#34;warrior-cats-clans-of-the-forest-trailer&#34;&gt;Warrior Cats Clans of the Forest Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/KydfEOzdNkw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--quest--achievement-systems&#34;&gt;Rol: Gameplay Programmer – Quest &amp;amp; Achievement Systems&lt;/h1&gt;&#xA;&lt;p&gt;En este RPG de acción y aventura basado en el universo literario de Warrior Cats, asumí la responsabilidad del diseño e implementación técnica de los sistemas troncales de progresión, tareas y metas del jugador:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Looney Tunes Wacky World of Sports</title>
-				<link>https://yeonat.github.io/page/portfolio/looney-tunes-wacky-world-of-sports/</link>
-				<pubDate>Fri, 11 Sep 2026 10:43:49 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/looney-tunes-wacky-world-of-sports/</guid>
-				<description>&lt;h1 id=&#34;looney-tunes-wacky-world-of-sports-trailer&#34;&gt;Looney Tunes Wacky World of Sports Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/eJIsVjqy6nY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--challenges--achievement-systems&#34;&gt;Rol: Gameplay Programmer – Challenges &amp;amp; Achievement Systems&lt;/h1&gt;&#xA;&lt;p&gt;En esta entrega multideporte arcade basada en la clásica franquicia de Warner Bros., formé parte del equipo de programación liderando la arquitectura e implementación técnica de los sistemas de progresión y desafíos transversales a los 4 deportes:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Avatar: The Last Airbender: Quest for Balance</title>
-				<link>https://yeonat.github.io/page/portfolio/avatar-the-last-airbender/</link>
-				<pubDate>Fri, 11 Sep 2026 10:21:39 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/portfolio/avatar-the-last-airbender/</guid>
-				<description>&lt;h1 id=&#34;avatar-the-last-airbender-trailer&#34;&gt;Avatar: The Last Airbender Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1WsMzwqnqgc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;rol-gameplay-programmer--technical-scripting&#34;&gt;Rol: Gameplay Programmer &amp;amp; Technical Scripting&lt;/h1&gt;&#xA;&lt;p&gt;En este título oficial de acción y aventura cooperativo basado en la serie original, formé parte del equipo de desarrollo encargándome de la programación e integración técnica:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;Implementación de Sistemas de Diálogos:&lt;/em&gt; Integré los flujos y árboles de diálogo en el motor Unreal Engine, conectando triggers en escena, eventos de audio/texto y sincronización de secuencias narrativas sin intervenir en la redacción del guion.&lt;/p&gt;</description>
-			</item>
+			<atom:link href="https://yeonat.github.io/page/stacks/unity/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Snowbot Factory Rush</title>
 				<link>https://yeonat.github.io/page/portfolio/snowbot-factory-rush/</link>
@@ -54,20 +26,6 @@
 				<pubDate>Fri, 12 Sep 2025 20:39:13 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</guid>
 				<description>&lt;div&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;iframe&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;src=&#34;https://player.vimeo.com/video/1226311417?dnt=0&#34;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/iframe&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;1-visión-general-del-proyecto&#34;&gt;1. Visión General del Proyecto&lt;/h2&gt;&#xA;&lt;p&gt;Una herramienta de entrenamiento en Realidad Virtual desarrollada en &lt;strong&gt;Unity 6&lt;/strong&gt; orientada a capacitar y evaluar al usuario en el uso correcto de extintores portátiles bajo el estándar internacional &lt;strong&gt;PASS&lt;/strong&gt; (&lt;em&gt;Pull, Aim, Squeeze, Sweep&lt;/em&gt; / Tirar, Apuntar, Presionar, Extender).&lt;/p&gt;&#xA;&lt;p&gt;El proyecto integra dos entornos principales accesibles desde un área central (Hub):&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Unity C# Survival Guide</title>
-				<link>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</link>
-				<pubDate>Sat, 07 May 2022 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode15s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
-			</item>
-			<item>
-				<title>Math For Video Games: The Fastest Way To Get Smarter At Math</title>
-				<link>https://yeonat.github.io/page/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</link>
-				<pubDate>Thu, 05 May 2022 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</guid>
-				<description></description>
 			</item>
 			<item>
 				<title>Aliens Use Digging Machine</title>
@@ -110,62 +68,6 @@
 				<pubDate>Wed, 25 Aug 2021 22:30:29 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/portfolio/boy-adventure-the-game/</guid>
 				<description>&lt;h1 id=&#34;boy-adventure-the-game-gameplay&#34;&gt;Boy Adventure The Game gameplay&lt;/h1&gt;&#xA;&lt;p&gt;Gameplay gracias al canal &lt;em&gt;Cryptic Hybrid&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Jh45qx5CI4I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Boy Adventure es un plataformas de puzles creado durante la GMTK Game Jam 2019 explorando el reto de despojar a un género de su pilar básico: el desplazamiento horizontal continuo. Mediante un sistema de bloqueos direccionales y activación de pulsadores, el diseño traslada el peso jugable de la agilidad motriz a la resolución espacial y secuencial de acertijos para lograr escapar de una mazmorra.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Sobrecarga de métodos en C#</title>
-				<link>https://yeonat.github.io/page/blog/method-overloading/</link>
-				<pubDate>Fri, 13 Aug 2021 14:06:55 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/blog/method-overloading/</guid>
-				<description>&lt;p&gt;La sobrecarga (overloading) es un proceso a través del cual puedes asignarle a un solo método definiciones múltiples. Esto significa que puedes usar el mismo nombre del método para hacer dos cosas distintas.&lt;/p&gt;&#xA;&lt;p&gt;Digamos que necesitas un método para sumar dos cantidades, podrías crear un método &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddNumbers()&lt;/code&gt;  que sería responsable de sumar esos dos números. Sin embargo, el sumar dos strings (o cadenas) funciona de manera diferente; por ende, necesitarías un nuevo método llamado  &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;AddString()&lt;/code&gt;.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Modificador static (estático) en C#</title>
-				<link>https://yeonat.github.io/page/blog/static/</link>
-				<pubDate>Fri, 06 Aug 2021 13:04:05 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/blog/static/</guid>
-				<description>&lt;p&gt;Los miembros estáticos, tales como las variables y los métodos son miembros que se comparten a través de todas las instancias de una clase, los miembros estáticos se pueden acceder directamente desde una clase sin instanciar un objeto de la clase primero.&lt;/p&gt;&#xA;&lt;p&gt;Normalmente las variables miembros son únicas para cada objeto de una clase, cada objeto de una clase tiene las mismas variables, cada uno tiene su propio valor.&lt;/p&gt;&#xA;&lt;p&gt;No obstante, con las variables estáticas cada objeto de la clase tiene la misma variable con el mismo valor, por lo tanto cambiar el valor de una variable estática en un lugar resultará en un cambio de valor en todas las otras.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Intro to Game Development with Unity</title>
-				<link>https://yeonat.github.io/page/certificates/intro-to-game-development-with-unity/</link>
-				<pubDate>Thu, 15 Jul 2021 00:14:06 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/intro-to-game-development-with-unity/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode10s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://academy.zenva.com/certificate/ff0a0182&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
-			</item>
-			<item>
-				<title>Operador ternario en C#</title>
-				<link>https://yeonat.github.io/page/blog/ternary-operator/</link>
-				<pubDate>Sat, 12 Jun 2021 16:21:10 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/blog/ternary-operator/</guid>
-				<description>&lt;p&gt;El operador condicional ternario es una forma condensada para una instrucción if&amp;hellip;else. En su forma más básica, los operadores condicionales ternarios se usan para decidir entre dos valores basados en alguna expresiones de tipo bool.&lt;/p&gt;&#xA;&lt;h1 id=&#34;la-sintaxis-sigue-el-formato&#34;&gt;La sintaxis sigue el formato:&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// expresión bool ? true : false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;string&lt;/span&gt; message = health &amp;gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;0&lt;/span&gt; ? &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Player is Alive&amp;#34;&lt;/span&gt; : &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Player is Dead&amp;#34;&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;El primer parámetro &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;health &amp;gt; 0&lt;/code&gt;, es la expresión tipo &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;bool&lt;/code&gt;, o la condición que se evalúa como booleana que te gustaría probar. El fin de este parámetro se marca con un signo de interrogación de cierre.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Propiedades en C#</title>
-				<link>https://yeonat.github.io/page/blog/propierties/</link>
-				<pubDate>Sat, 05 Jun 2021 14:16:40 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/blog/propierties/</guid>
-				<description>&lt;p&gt;Es muy común la necesidad de tener una manera de acceder a las variables miembros de una clase desde código que exista fuera de esa clase. Una manera en la que puedes hacerlo sería hacer las variables públicas para así accederlas directamente. Esto es suficiente pero hay otra manera, esa manera es usar propiedades.&lt;/p&gt;&#xA;&lt;p&gt;Las propiedades mismas actúan como variables y encapsulan variables miembros, las mismas que también podemos llamar campos. Esta encapsulación nos da más control sobre cuándo y cómo se accede a un campo.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Conóceme</title>
-				<link>https://yeonat.github.io/page/about/</link>
-				<pubDate>Mon, 06 Jul 2020 18:19:46 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/about/</guid>
-				<description>&lt;p&gt;Soy Jonatan, programador de videojuegos y simulaciones enfocado en escribir código limpio, desacoplado y de alto rendimiento. Me motiva colaborar con equipos multidisciplinarios, optimizar sistemas complejos y convertir retos técnicos en experiencias interactivas sólidas y memorables.&lt;/p&gt;&#xA;&lt;p&gt;Soy egresado de la carrera de &lt;strong&gt;Ingeniería de Desarrollo de Juegos&lt;/strong&gt; en el &lt;strong&gt;Insituto San Ignacio de Loyola (ISIL)&lt;/strong&gt;, graduándome ocupando el &lt;em&gt;primer puesto&lt;/em&gt; con beca por &lt;em&gt;excelencia académica&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;me-apasiona-el-trabajo-en-equipo-y-los-proyectos-retadores&#34;&gt;Me apasiona el trabajo en equipo y los proyectos retadores&lt;/h1&gt;&#xA;&lt;p&gt;A lo largo de más de 6 años he participado en el desarrollo y lanzamiento comercial de títulos multiplataforma y proyectos de simulación:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Desarrollo De Videojuegos Shoot´Em Up 2d con Unity</title>
-				<link>https://yeonat.github.io/page/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</link>
-				<pubDate>Tue, 12 May 2020 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode7s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
-			</item>
-			<item>
-				<title>Introduccion a Unity Para Videojuegos 2d</title>
-				<link>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</link>
-				<pubDate>Sat, 25 Apr 2020 01:16:39 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode12s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/dde37c0eb017f90be9b5e1dd20174eca&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 			<item>
 				<title>AR Obstetra</title>

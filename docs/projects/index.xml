@@ -14,17 +14,31 @@
 		
 			<atom:link href="https://yeonat.github.io/page/projects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Videojuego</title>
-				<link>https://yeonat.github.io/page/projects/videojuego/</link>
+				<title>Game</title>
+				<link>https://yeonat.github.io/page/projects/game/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/projects/videojuego/</guid>
+				<guid>https://yeonat.github.io/page/projects/game/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Simulador</title>
-				<link>https://yeonat.github.io/page/projects/simulador/</link>
+				<title>Professional</title>
+				<link>https://yeonat.github.io/page/projects/professional/</link>
+				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/projects/professional/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personal</title>
+				<link>https://yeonat.github.io/page/projects/personal/</link>
+				<pubDate>Fri, 11 Sep 2026 09:55:20 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/projects/personal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Simulator</title>
+				<link>https://yeonat.github.io/page/projects/simulator/</link>
 				<pubDate>Fri, 12 Sep 2025 20:39:13 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/projects/simulador/</guid>
+				<guid>https://yeonat.github.io/page/projects/simulator/</guid>
 				<description></description>
 			</item>
 	</channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Simulador on Jonatan Sosa | Portafolio</title>
-		<link>https://yeonat.github.io/page/projects/simulador/</link>
-		<description>Recent content in Simulador on Jonatan Sosa | Portafolio</description>
+		<title>Simulator on Jonatan Sosa | Portafolio</title>
+		<link>https://yeonat.github.io/page/projects/simulator/</link>
+		<description>Recent content in Simulator on Jonatan Sosa | Portafolio</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Fri, 12 Sep 2025 20:39:13 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/projects/simulador/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://yeonat.github.io/page/projects/simulator/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>VR Fire Extinguisher Simulation</title>
 				<link>https://yeonat.github.io/page/portfolio/vr-fire-extinguisher-simulation/</link>
