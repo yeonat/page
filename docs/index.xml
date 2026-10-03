@@ -10,15 +10,29 @@
 		
 		
 		
-			<lastBuildDate>Tue, 15 Sep 2026 14:20:55 -0500</lastBuildDate>
+			<lastBuildDate>Fri, 02 Oct 2026 18:49:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://yeonat.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Herencia en C#</title>
+				<link>https://yeonat.github.io/page/blog/inheritance/</link>
+				<pubDate>Fri, 02 Oct 2026 18:49:00 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/inheritance/</guid>
+				<description>&lt;p&gt;Los lenguajes de scripting con los que es compatible &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Unity&lt;/code&gt; tienen una característica llamada &lt;em&gt;Herencia&lt;/em&gt;. La herencia es uno de los pilares de la &lt;em&gt;Programación Orientada a Objetos&lt;/em&gt; o &lt;em&gt;POO&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;cuando-una-clase-hereda-de-otra-gana-las-características-de-la-clase-de-la-que-hereda&#34;&gt;Cuando una clase hereda de otra gana las características de la clase de la que hereda.&lt;/h1&gt;&#xA;&lt;p&gt;Cuando se habla sobre la herencia, la clase de la que se hereda se llama clase Base o Parent. La clase que hereda se llama la clase derivada o &lt;em&gt;Child&lt;/em&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Genericos en C#</title>
+				<link>https://yeonat.github.io/page/blog/generics/</link>
+				<pubDate>Fri, 02 Oct 2026 15:34:00 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/generics/</guid>
+				<description>&lt;p&gt;Los genéricos son una herramienta a través de la cual clases y métodos, entre otras cosas, pueden pasar un tipo como si fuera un parámetro. Esto, en efecto, te permite programar genéricamente sin saber el tipo exacto de datos con los que vas a trabajar.&lt;/p&gt;&#xA;&lt;p&gt;Hemos visto antes en unity, que el método &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;GetComponent()&lt;/code&gt; usa un parámetro genérico para obtener el tipo del componente que está buscando, &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;GetComponent()&lt;/code&gt; es lo que se conoce como un método genérico, vamos a echarle un vistazo a cómo crear uno.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Currículum Vitae</title>
 				<link>https://yeonat.github.io/page/curriculum/</link>
 				<pubDate>Tue, 15 Sep 2026 14:20:55 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/curriculum/</guid>
-				<description>&lt;h2 id=&#34;si-deseas-ver-más-detalles-consulta-mi-perfil-dehahahugoshortcode20s0hbhb-yo-hahahugoshortcode20s1hbhb&#34;&gt;Si deseas ver más detalles, consulta mi perfil de&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.linkedin.com/in/jonatansosa/&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt;&#xD;&#xA;&#xD;&#xA; y/o &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://yeonat.github.io/page/resume.pdf&#34; target=&#34;_blank&#34;&gt;descarga mi currículum&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h2&gt;&#xA;&lt;h1 id=&#34;experiencia&#34;&gt;Experiencia:&lt;/h1&gt;&#xA;&lt;p&gt;&#xD;&#xA;&lt;img src=&#34;https://yeonat.github.io/page/curriculum/1630577354239.jpg&#34; alt=&#34;bamtang&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bamtang-games&#34;&gt;Bamtang Games&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Profesional&lt;/strong&gt; / &lt;em&gt;ago 2023 - jun 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador&lt;/strong&gt; / &lt;em&gt;ago 2022 - jul 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Junior&lt;/strong&gt; / &lt;em&gt;sep 2021 - jul 2022&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;proyectos&#34;&gt;Proyectos&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Warrior Cats: Clans Of The Forest&lt;/strong&gt; / &lt;em&gt;Lanzado en 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Looney Tunes: Wacky World Of Sports&lt;/strong&gt; / &lt;em&gt;Lanzado en 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Avatar: The Last Airbender: Quest For Balance&lt;/strong&gt; / &lt;em&gt;Lanzado en 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Disney All-Star Party (Disney Now)&lt;/strong&gt; / &lt;em&gt;Actualizado en 2021&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Como Programador de Gameplay y Sistemas, me especializo en la arquitectura de juego, progresión y optimización de rendimiento para PC, consolas y móviles en C++ (Unreal Engine 5) y C# (Unity). He diseñado sistemas modulares de misiones y retos, serialización de datos para mundos abiertos y asegurado el cumplimiento técnico de consolas (Sony TRC / Microsoft XR) en títulos para franquicias globales como Warrior Cats, Looney Tunes, Avatar: The Last Airbender y Disney.&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;si-deseas-ver-más-detalles-consulta-mi-perfil-dehahahugoshortcode18s0hbhb-yo-hahahugoshortcode18s1hbhb&#34;&gt;Si deseas ver más detalles, consulta mi perfil de&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.linkedin.com/in/jonatansosa/&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt;&#xD;&#xA;&#xD;&#xA; y/o &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://yeonat.github.io/page/resume.pdf&#34; target=&#34;_blank&#34;&gt;descarga mi currículum&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h2&gt;&#xA;&lt;h1 id=&#34;experiencia&#34;&gt;Experiencia:&lt;/h1&gt;&#xA;&lt;p&gt;&#xD;&#xA;&lt;img src=&#34;https://yeonat.github.io/page/curriculum/1630577354239.jpg&#34; alt=&#34;bamtang&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bamtang-games&#34;&gt;Bamtang Games&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Profesional&lt;/strong&gt; / &lt;em&gt;ago 2023 - jun 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador&lt;/strong&gt; / &lt;em&gt;ago 2022 - jul 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programador Junior&lt;/strong&gt; / &lt;em&gt;sep 2021 - jul 2022&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;proyectos&#34;&gt;Proyectos&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Warrior Cats: Clans Of The Forest&lt;/strong&gt; / &lt;em&gt;Lanzado en 2026&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Looney Tunes: Wacky World Of Sports&lt;/strong&gt; / &lt;em&gt;Lanzado en 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Avatar: The Last Airbender: Quest For Balance&lt;/strong&gt; / &lt;em&gt;Lanzado en 2023&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Disney All-Star Party (Disney Now)&lt;/strong&gt; / &lt;em&gt;Actualizado en 2021&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Como Programador de Gameplay y Sistemas, me especializo en la arquitectura de juego, progresión y optimización de rendimiento para PC, consolas y móviles en C++ (Unreal Engine 5) y C# (Unity). He diseñado sistemas modulares de misiones y retos, serialización de datos para mundos abiertos y asegurado el cumplimiento técnico de consolas (Sony TRC / Microsoft XR) en títulos para franquicias globales como Warrior Cats, Looney Tunes, Avatar: The Last Airbender y Disney.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Warrior Cats Clans of the Forest</title>
@@ -60,7 +74,7 @@
 				<link>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</link>
 				<pubDate>Sat, 07 May 2022 01:37:24 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/certificates/the-unity-csharp-survival-guide/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode18s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
+				<description>&lt;h3 id=&#34;hahahugoshortcode17s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 			<item>
 				<title>Math For Video Games: The Fastest Way To Get Smarter At Math</title>
@@ -165,7 +179,7 @@
 				<link>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</link>
 				<pubDate>Sat, 25 Apr 2020 01:16:39 -0500</pubDate>
 				<guid>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</guid>
-				<description>&lt;h3 id=&#34;hahahugoshortcode15s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/dde37c0eb017f90be9b5e1dd20174eca&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
+				<description>&lt;h3 id=&#34;hahahugoshortcode14s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/dde37c0eb017f90be9b5e1dd20174eca&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 			<item>
 				<title>AR Obstetra</title>

@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Fri, 13 Aug 2021 14:06:55 -0500</lastBuildDate>
+			<lastBuildDate>Fri, 02 Oct 2026 18:49:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://yeonat.github.io/page/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Herencia en C#</title>
+				<link>https://yeonat.github.io/page/blog/inheritance/</link>
+				<pubDate>Fri, 02 Oct 2026 18:49:00 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/inheritance/</guid>
+				<description>&lt;p&gt;Los lenguajes de scripting con los que es compatible &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Unity&lt;/code&gt; tienen una característica llamada &lt;em&gt;Herencia&lt;/em&gt;. La herencia es uno de los pilares de la &lt;em&gt;Programación Orientada a Objetos&lt;/em&gt; o &lt;em&gt;POO&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;cuando-una-clase-hereda-de-otra-gana-las-características-de-la-clase-de-la-que-hereda&#34;&gt;Cuando una clase hereda de otra gana las características de la clase de la que hereda.&lt;/h1&gt;&#xA;&lt;p&gt;Cuando se habla sobre la herencia, la clase de la que se hereda se llama clase Base o Parent. La clase que hereda se llama la clase derivada o &lt;em&gt;Child&lt;/em&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Genericos en C#</title>
+				<link>https://yeonat.github.io/page/blog/generics/</link>
+				<pubDate>Fri, 02 Oct 2026 15:34:00 -0500</pubDate>
+				<guid>https://yeonat.github.io/page/blog/generics/</guid>
+				<description>&lt;p&gt;Los genéricos son una herramienta a través de la cual clases y métodos, entre otras cosas, pueden pasar un tipo como si fuera un parámetro. Esto, en efecto, te permite programar genéricamente sin saber el tipo exacto de datos con los que vas a trabajar.&lt;/p&gt;&#xA;&lt;p&gt;Hemos visto antes en unity, que el método &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;GetComponent()&lt;/code&gt; usa un parámetro genérico para obtener el tipo del componente que está buscando, &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;GetComponent()&lt;/code&gt; es lo que se conoce como un método genérico, vamos a echarle un vistazo a cómo crear uno.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Sobrecarga de métodos en C#</title>
 				<link>https://yeonat.github.io/page/blog/method-overloading/</link>
