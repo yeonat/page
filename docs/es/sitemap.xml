@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yeonat.github.io/page/tags/csharp/</loc>
-    <lastmod>2026-10-02T18:49:00-05:00</lastmod>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.github.io/page/blog/inheritance/</loc>
-    <lastmod>2026-10-02T18:49:00-05:00</lastmod>
+    <loc>https://yeonat.github.io/page/blog/events/</loc>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
     <loc>https://yeonat.github.io/page/tags/</loc>
-    <lastmod>2026-10-02T18:49:00-05:00</lastmod>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -20,6 +20,45 @@
                 hreflang="en-us"
                 href="https://yeonat.github.io/page/en/tags/"
                 />
+  </url><url>
+    <loc>https://yeonat.github.io/page/tags/unity/</loc>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/attributes/</loc>
+    <lastmod>2026-10-03T19:31:10-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/delegates/</loc>
+    <lastmod>2026-10-03T18:56:49-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/quaternions/</loc>
+    <lastmod>2026-10-03T17:38:07-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/coroutines/</loc>
+    <lastmod>2026-10-03T16:03:47-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/lists-and-dictionaries/</loc>
+    <lastmod>2026-10-03T14:44:27-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/namespaces/</loc>
+    <lastmod>2026-10-03T14:22:52-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/extension-methods/</loc>
+    <lastmod>2026-10-03T14:00:27-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/interfaces/</loc>
+    <lastmod>2026-10-03T13:04:59-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/overriding/</loc>
+    <lastmod>2026-10-03T11:50:04-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/member-hiding/</loc>
+    <lastmod>2026-10-03T11:30:50-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/polymorphism/</loc>
+    <lastmod>2026-10-03T09:57:05-05:00</lastmod>
+  </url><url>
+    <loc>https://yeonat.github.io/page/blog/inheritance/</loc>
+    <lastmod>2026-10-02T18:49:00-05:00</lastmod>
   </url><url>
     <loc>https://yeonat.github.io/page/blog/generics/</loc>
     <lastmod>2026-10-02T15:34:00-05:00</lastmod>

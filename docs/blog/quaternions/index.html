@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="es" data-theme="light"><head>
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.166.0"><meta name="description" content="Programador de videojuegos con más de 6 años de experiencia lanzando proyectos multiplataforma en PC, consolas y móviles. Enfocado en escribir código limpio, desacoplado y de alto rendimiento.">
+    <meta name="keywords" content="developer, games, simulators, pixel, art, unity, csharp, unreal, cpp, pizza, yeonat ">
+    <meta name="author" content="Jonatan Sosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://yeonat.github.io/page/css/style.min.785f39119e885f5af159ae10256a2f008fb1d75e06992f2598594edc3f7682a9.css" integrity="sha256-eF85EZ6IX1rxWa4QJWovAI&#43;x114GmS8lmFlO3D92gqk=" crossorigin="anonymous" type="text/css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://yeonat.github.io/page/favicons/favicon.ico" sizes="any">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://games-by-yehonat.github.io/">
+    
+    <meta name="twitter:title" content="Quaternions">
+    <meta name="twitter:description" content="Cómo utilizar el sistema de cuaternión para gestionar la rotación de los objetos del juego.">
+    <meta name="twitter:image" content="/page/blog/_15_quaternions.png">
+    
+    <title>Quaternions — Jonatan Sosa</title>
+    
+    
+    
+    <script type="text/javascript" src="https://yeonat.github.io/page/js/yehonat-theme.min.26ca13e73538f2e8c06a988c59ff7b0c2fe18c0326bf1e9018e45bf491e9929b.js" integrity="sha256-JsoT5zU48ujAapiMWf97DC/hjAMmvx6QGORb9JHpkps=" crossorigin="anonymous"></script>
+  </head><body>
+
+
+<header id="header" class="w-100">
+    <div class="container margin-remove padding-remove ">
+        <div id="header-body-desktop" class="d-flex j-content-center a-items-center font-weight-600">
+     
+    <div>
+        <nav class="navigation">
+            <ul class="separate-list d-flex j-content-space-between a-items-center ">
+                
+                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="welcome"  href="/page/"><i class="fa-solid fa-house" aria-hidden="true"></i> Bienvenido</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="portfolio"  href="/page/portfolio/"><i class="fa-solid fa-folder" aria-hidden="true"></i> Proyectos</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="about"  href="/page/about/"><i class="fa-solid fa-user" aria-hidden="true"></i> Conóceme</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="blog"  class="current" href="/page/blog/"><i class="fa-solid fa-pen" aria-hidden="true"></i> Blog</a></li>                
+                
+                <li class="separate-item">
+                    |
+                </li>
+                <li>
+                    
+
+
+
+
+
+    
+
+    
+        
+        
+    
+
+
+<a href="/page/en/" class="lang-toggle" role="button" aria-label="Cambiar idioma / Switch language" title="Switch to English">
+    <span class="lang-label is-active">ES</span>
+    <span class="lang-track">
+        <span class="lang-slider "></span>
+    </span>
+    <span class="lang-label ">EN</span>
+</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+</div>
+
+
+        
+<div id="header-body-mobile" class="title-font d-flex j-content-space-between">
+     
+    <div>
+        <nav class="navigation">
+            <ul class="separate-list d-flex j-content-space-between a-items-center ">
+                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="welcome"  href="/page/"><i class="fa-solid fa-house" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="portfolio"  href="/page/portfolio/"><i class="fa-solid fa-folder" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="about"  href="/page/about/"><i class="fa-solid fa-user" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="blog"  class="current" href="/page/blog/"><i class="fa-solid fa-pen" aria-hidden="true"></i> </a></li>
+                
+                <li class="separate-item">
+                    |
+                </li>
+                <li>
+                    
+
+
+
+
+
+    
+
+    
+        
+        
+    
+
+
+<a href="/page/en/" class="lang-toggle" role="button" aria-label="Cambiar idioma / Switch language" title="Switch to English">
+    <span class="lang-label is-active">ES</span>
+    <span class="lang-track">
+        <span class="lang-slider "></span>
+    </span>
+    <span class="lang-label ">EN</span>
+</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+</div>
+
+
+<div id="menu-wrapper" class="container title-font hidden-element">
+    <div id="menu-animate" class="w-100 h-100 animated">
+        <div class="menu-nav w-100 h-100 d-flex-nowrap j-content-center j-content-space-evenly flex-direction-column">
+            <div class="d-flex j-content-start a-items-center">
+            </div>
+            
+            <nav class="menu-navigation mobile d-flex j-content-start">
+                <ul class="d-flex a-items-start flex-direction-column text-align-start">
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="welcome" href="/page/">Bienvenido</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="portfolio" href="/page/portfolio/">Proyectos</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="about" href="/page/about/">Conóceme</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="blog" href="/page/blog/">Blog</a></li>
+                    
+                </ul>
+            </nav>
+            
+            
+            <nav class="social-navigation mobile d-flex j-content-start">
+                <ul class="separate-list-3x d-flex">
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/jonatansosa/" rel="me" aria-label="LinkedIn" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.youtube.com/@yeonat" rel="me" aria-label="Youtube" target="_blank" title="Youtube">
+                        <i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://yeonat.itch.io/" rel="me" aria-label="Itch.io" target="_blank" title="Itch.io">
+                        <i class="fab fa-itch-io" aria-hidden="true"></i></a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            
+            <div class="d-flex j-content-start a-items-center padding-top">
+                <a class="d-block social-icon theme-switch-m">
+                    <i id="toggle-on-mobile" class="fa fa-toggle-on"></i>
+                    <i id="toggle-off-mobile" class="fa fa-toggle-off"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</header><div id="content">
+
+
+
+
+
+
+<div class="content-component animated fadeInDown">
+    <div class="container container-wrapper">
+        
+        <div class="d-flex j-content-space-between ground-space">
+            <span class="opace-color d-block a-items-center">03/10/26  · 6 min de lectura </span>
+
+<ul class="d-flex j-content-end a-items-center share-link">
+    <li><a class=" opace-color" target="_blank" title="x-icon" href="http://twitter.com/intent/tweet?text=Quaternions&url=https%3a%2f%2fyeonat.github.io%2fpage%2fblog%2fquaternions%2f"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fyeonat.github.io%2fpage%2fblog%2fquaternions%2f&title=&summary=&source="><i class="fab fa-linkedin"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Facebook" href="http://www.facebook.com/share.php?u=https%3a%2f%2fyeonat.github.io%2fpage%2fblog%2fquaternions%2f&quote=Quaternions%20-%20Jonatan%20Sosa"><i class="fab fa-facebook-square"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Email" href="mailto:?&body=https%3a%2f%2fyeonat.github.io%2fpage%2fblog%2fquaternions%2f"><i class="fas fa-envelope"></i></a></li>
+</ul>
+
+</div>
+        <div class="title-component title-font">
+            <h1 class="margin-remove">Quaternions</h1>
+        </div>
+        
+    </div>
+    
+    <div class="container-h-100 container-wrapper">
+        <p class="opace-color content-description subtitle-font margin-remove">Cómo utilizar el sistema de cuaternión para gestionar la rotación de los objetos del juego.</p>
+    </div>
+   
+    
+    
+    <div class="container container-wrapper content-post">
+        <img class="w-100" src="/page/blog/_15_quaternions.png" alt="">
+    </div>
+    
+    
+    <div class="container container-wrapper content content-post">
+        <p>
+
+
+
+<a class="link d-inline-block" href="https://unsplash.com/es/fotos/una-mano-sosteniendo-una-tarjeta-de-juego-bf2zY-dG7fg" target="_blank">Imagen por Izzy Park</a>
+
+.</p>
+<p>En 
+
+<code class="kbd border">Unity</code>, la rotación de un 
+
+<code class="kbd border">Trasform</code> se guarda como un 
+
+<code class="kbd border">Quaternion</code> (cuaternio). Funcionan de manera similar a los <em>vectores</em> pero tienen cuatro componentes: 
+
+<code class="kbd border">x, y, z</code>  y 
+
+<code class="kbd border">w</code>. Estos componentes son interdependientes y trabajan juntos para definir cualquier rotación que un objeto pueda necesitar.</p>
+<p>Una de las cosas más importantes que debemos recordar cuando estamos usando cuaternios es que desde que los componentes 
+
+<code class="kbd border">x, y, z</code>  y 
+
+<code class="kbd border">w</code> funcionan juntos, nunca deberías ajustarlos individualmente.</p>
+<p>Afortunadamente, 
+
+<code class="kbd border">Unity</code> tiene muchas funciones integradas para hacer la administración de los cuaternios muy fácil.</p>
+<p>El sistema para administrar las rotaciones con el que probablemente estás familiarizado se llama <em>Ángulos de Euler</em>. Los valores rotacionales que se muestran en el 
+
+<code class="kbd border">Inspector</code> usan este sistema, porque es un poco más fácil de entender.</p>
+<p>La rotación de los <em>Ángulos de Euler</em> se basa en una rotación alrededor de cada uno de los ejes: <em>horizontal, vertical y z</em>. Quizás te preguntes por qué 
+
+<code class="kbd border">Unity</code> utiliza cuaternios si los <em>Ángulos de Euler</em> son fáciles de entender, especialmente desde que 
+
+<code class="kbd border">Unity</code> convierte los cuaternos a <em>Ángulos de Euler</em> para el 
+
+<code class="kbd border">Inspector</code>.</p>
+<p>Basta decir que los <em>Ángulos de Euler</em> están sujetos a algo llamado el <em>bloqueo de cardán</em>, el que puede prevenir que los incrementos rotacionales funcionen correctamente. Afortunadamente, desde que 
+
+<code class="kbd border">Unity</code> guarda las rotaciones como <em>cuaternios</em>, los mismos que no están sujetos al <em>bloqueo de cardán</em>, no tenemos ese problema.</p>
+<h1 id="vamos-a-echarle-un-vistazo-a-algunas-de-las-funcionalidades-que-están-disponibles-a-través-de-la-clase-quaternion">Vamos a echarle un vistazo a algunas de las funcionalidades que están disponibles a través de la clase Quaternion.</h1>
+<p>Vamos a empezar con la función 
+
+<code class="kbd border">LookRotation()</code>. Aquí tenemos la configuración de una escena con un personaje y una esfera. El personaje tiene un script anexado llamado 
+
+<code class="kbd border">LookatScript</code>.</p>
+<p>La esfera tiene un script anexado llamado 
+
+<code class="kbd border">MotionScript</code>. El 
+
+<code class="kbd border">MotionScript</code>. simplemente mueve el objeto de un lado al otro. basado en el ingreso del eje horizontal.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#ff79c6">class</span> <span style="color:#50fa7b">MotionScript</span> : MonoBehaviour 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd">float</span> speed = <span style="color:#bd93f9">3f</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">void</span> Update()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        transform.Translate(Input.GetAxis(<span style="color:#f1fa8c">&#34;Horizontal&#34;</span>) * speed * Time.deltaTime, <span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">0</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>
+
+<code class="kbd border">LookAtScript</code> tiene un campo público para un 
+
+<code class="kbd border">Transform target</code>. y en la función 
+
+<code class="kbd border">Update()</code> vamos a usar 
+
+<code class="kbd border">LookRotation()</code> para hacer que el objeto rote y esté de cara al objetivo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#ff79c6">class</span> <span style="color:#50fa7b">LookAtScript</span> : MonoBehaviour 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">public</span> Transform target;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">void</span> Update()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        Vector3 relativePos = target.position - transform.position;
+</span></span><span style="display:flex;"><span>        transform.localRotation = Quaternion.LookRotation(relativePos);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>La función 
+
+<code class="kbd border">LookRotation()</code> toma un 
+
+<code class="kbd border">Vector3</code>. Regresa una rotación cuaternio alineada con el 
+
+<code class="kbd border">Vector3</code> que se pasó.</p>
+<p>Al calcular el vector relativo entre el objeto y el objetivo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>Vector3 relativePos = target.position - transform.position;</span></span></code></pre></div>
+<p>podemos hacer que el eje z del objeto rote hacia el objetivo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>transform.localRotation = Quaternion.LookRotation(relativePos);</span></span></code></pre></div>
+<p>Esto funciona de manera similar a 
+
+<code class="kbd border">transform.LookAt()</code>, pero al usar cuaternos se configura la rotación explícitamente.</p>
+<p>También vale la pena recalcar que podemos pasar un segundo 
+
+<code class="kbd border">Vector3</code> a la función. Este 
+
+<code class="kbd border">Vector3</code> le dice a la función hacia qué dirección se considera arriba.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>transform.localRotation = Quaternion.LookRotation(relativePos <span style="color:#6272a4">/*forward*/</span>, vector3.Up <span style="color:#6272a4">/*upwards*/</span>);</span></span></code></pre></div>
+<p>En el 
+
+<code class="kbd border">Editor Unity</code>, iniciamos nuestra escena. Podemos ver que no importa a dónde movamos la esfera, el personaje se torna hacia ella.</p>
+<p>
+<img src="/page/blog/_15_quaternions_a.gif" alt="gif">
+
+</p>
+<p>La próxima función a la que queremos echarle un vistazo es la función 
+
+<code class="kbd border">Slerp()</code>. <em>Slerp</em> es una abreviación de <em>Spherical Interpolation</em> (interpolación polar). Es muy similar a la función 
+
+<code class="kbd border">Lerp()</code>, la misma que es una abreviación de <em>Linear Interpolation</em> (interpolación linear).</p>
+<p>La gran diferencia entre las dos es que <em>Lerp</em> hará una interpolación pareja entre dos cuaternos mientras que es 
+
+<code class="kbd border">Slerp()</code> hará una interpolación en una curva. El resultado es que 
+
+<code class="kbd border">Lerp()</code> proveerá un cambio parejo a través del tiempo, mientras que 
+
+<code class="kbd border">Slerp()</code> comenzará y terminará despacio y será más rápida a la mita</p>
+<p>Aquí tenemos una escena con otro personaje y otra esfera. El personaje no tiene ningún script anexado. La esfera tiene un 
+
+<code class="kbd border">GravityScript</code> anexado a ella. Esta escena usa 
+
+<code class="kbd border">Slerp()</code> y un poco de arranque para obtener un efecto de gravedad orbital.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#ff79c6">class</span> <span style="color:#50fa7b">GravityScript</span> : MonoBehaviour 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">public</span> Transform target;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">void</span> Update()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        Vector3 relativePos = (target.position + <span style="color:#ff79c6">new</span> Vector3(<span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">1.5f</span>, <span style="color:#bd93f9">0</span>)) - transform.position;
+</span></span><span style="display:flex;"><span>        Quaternion rotation = Quaternion.LookRotation(relativePos);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        Quaternion current = transform.localRotation;
+</span></span><span style="display:flex;"><span>        transform.localRotation = Quaternion.Slerp(current, rotation, Time.deltaTime);
+</span></span><span style="display:flex;"><span>        transform.Translate(<span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">3</span> * Time.deltaTime);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>En el script 
+
+<code class="kbd border">GravityScript</code> hemos configurado algo similar al 
+
+<code class="kbd border">LookAtScript</code> de antes. Otra vez, tenemos un campo público para nuestro 
+
+<code class="kbd border">Transform</code> objetivo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">public</span> Transform target;</span></span></code></pre></div>
+<p>También estamos calculando el <em>vector</em> relativo entre el <em>objeto</em> y el <em>objetivo</em>. Aunque esta vez estamos agregando un 
+
+<code class="kbd border">offset</code> para representar la altura de la esfera.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>Vector3 relativePos = (target.position + <span style="color:#ff79c6">new</span> Vector3(<span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">1.5f</span>, <span style="color:#bd93f9">0</span>)) - transform.position;</span></span></code></pre></div>
+<p>También estamos calculando la 
+
+<code class="kbd border">LookRotation()</code> como antes, excepto que esta vez no estamos guardándola en la rotación del 
+
+<code class="kbd border">Transform</code> del objeto. En su lugar estamos guardándola en una variable tipo cuaternio llamada rotation.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>Quaternion rotation = Quaternion.LookRotation(relativePos);</span></span></code></pre></div>
+<p>Luego, guardamos la rotación local del objeto en una variable cuaternio llamada 
+
+<code class="kbd border">current</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>Quaternion current = transform.localRotation;</span></span></code></pre></div>
+<p>Después de eso usamos la función 
+
+<code class="kbd border">Slerp()</code> para rotar el objeto despacio para que mire hacia el objetivo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>transform.localRotation = Quaternion.Slerp(current, rotation, Time.deltaTime);</span></span></code></pre></div>
+<p>La función 
+
+<code class="kbd border">Slerp()</code> lee la rotación actual, la rotación resultado y la velocidad que deben interpolar o girar. El hecho de que la rotación no ocurra inmediatamente,
+sino que ocurra a medida que pase el tiempo, es la clave para hacer que este ejemplo funcione.</p>
+<p>Después de que rotemos el objeto ligeramente hacia el objetivo, lo movemos hacia adelante un poco.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>transform.Translate(<span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">3</span> * Time.deltaTime);</span></span></code></pre></div>
+<p>En el 
+
+<code class="kbd border">Editor Unity</code>, iniciamos la escena y vemos el resultado. La esfera siempre está moviéndose hacia adelante y girando para estar de frente al objetivo, el mismo que es este caso es el personaje. Esto nos da un efecto orbital muy regular y agradable.</p>
+<p>
+<img src="/page/blog/_15_quaternions_b.gif" alt="gif">
+
+</p>
+<p>Lo último que veremos es la propiedad 
+
+<code class="kbd border">identity</code> (identidad) de la clase 
+
+<code class="kbd border">Quaternion</code>. El configurar un cuaterno a quaternion.identity efectivamente configurará su rotación <em>Euler a 0, 0, 0</em> o sin rotación.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#ff79c6">class</span> <span style="color:#50fa7b">SomeClass</span> : MonoBehaviour 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">private</span> <span style="color:#ff79c6">void</span> Start()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        transform.localRotation = Quaternion.identity;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>Hay más funciones en la clase 
+
+<code class="kbd border">Quaternion</code> que puedes encontrar en la documentación vinculada en la parte inferior.</p>
+<p>Lo más importante que debes recordar de esta lección es que los 
+
+<code class="kbd border">Quaternion</code> son la mejor manera de lidiar con la rotación y que nunca deberías alterar sus componentes independientemente. Siempre habrá algún tipo de funcionalidad que puedas usar en vez de eso.</p>
+
+
+
+<a class="gist border" target="_blank" href="https://gist.github.com/yeonat/1ff7118b7ccf616c74c00827dfd5f277"><i class="fab fa-github"></i> Gist del proyecto</a>
+<p>Apoya el contenido de mi blog a través de:</p>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#c3b2ff', 'V7V44K41U');kofiwidget2.draw();</script> 
+<style>
+    span.kofitext {
+        color: #000000 !important;
+    }
+</style>
+<p>Fuente:</p>
+<ul>
+<li>
+
+
+
+<span class="source-post">
+    
+    <a class="link" href="https://docs.unity3d.com/es/2018.4/Manual/QuaternionAndEulerRotationsInUnity.html" target="_blank">Unity Docs: Quaternion And Euler Rotations In Unity</a>
+    
+</span>
+
+
+
+</li>
+<li>
+
+
+
+<span class="source-post">
+    
+    <a class="link" href="https://learn.unity.com/" target="_blank">Unity Learn: Junior Programer</a>
+    
+</span>
+
+
+
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    <div class="container container-wrapper">
+        <nav>
+            <ul class="d-flex j-content-start">
+                <li>
+    <a class="tag" style="vertical-align: middle;" href="/page/tags/unity/">unity</a>
+</li>
+<li>
+    <a class="tag" style="vertical-align: middle;" href="/page/tags/csharp/">csharp</a>
+</li>
+
+            </ul>
+        </nav>
+    </div>
+    
+    
+
+    
+
+    
+    <div class="container">
+        <div class="navigation d-flex j-content-space-between a-items-center">
+            <div class=" w-50">
+                
+                <a href="https://yeonat.github.io/page/blog/delegates/">
+                    <div class="d-flex j-content-start a-items-center">
+                        <i class="fas fa-2x fa-arrow-left"></i>
+                        <p class="margin-remove text-align-left"> Delegates en C#</p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="w-50">
+                
+                <a href="https://yeonat.github.io/page/blog/coroutines/">
+                    <div class="d-flex j-content-end a-items-center">
+                        <p class="margin-remove text-align-right">Coroutines </p>
+                        <i class="fas fa-2x fa-arrow-right"></i>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="navigation mobile d-flex j-content-space-between a-items-center">
+            <div>
+                
+                <a href="https://yeonat.github.io/page/blog/delegates/">
+                    <p class="margin-remove text-align-left"><i class="fas fa-arrow-left"></i></p>
+                </a>
+                
+            </div>
+            <div>
+                
+                <a href="https://yeonat.github.io/page/blog/coroutines/">
+                    <p class="margin-remove text-align-right"><i class="fas fa-arrow-right"></i></p>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+<div id="alert" class="copy-alert d-flex j-content-center a-items-center">
+    <div class="text-alert text-align-center border position-relative">
+        <span>Copiado!</span>
+    </div>
+</div>
+
+        </div><footer id="footer" class="footer-component animated fadeInDown">
+    <div class="container">
+        
+        <nav class="social-navigation d-flex j-content-center a-items-center">
+            <ul class="separate-list d-flex j-content-space-between text-align-center">
+                
+                <li>
+                    <a class="font-weight-600" href="https://www.linkedin.com/in/jonatansosa/" rel="me" aria-label="LinkedIn" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in text-highlight" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+                </li>
+                
+                <li>
+                    <a class="font-weight-600" href="https://www.youtube.com/@yeonat" rel="me" aria-label="Youtube" target="_blank" title="Youtube">
+                    <i class="fab fa-youtube text-highlight" aria-hidden="true"></i>
+                    Youtube
+                </a>
+                </li>
+                
+                <li>
+                    <a class="font-weight-600" href="https://yeonat.itch.io/" rel="me" aria-label="Itch.io" target="_blank" title="Itch.io">
+                    <i class="fab fa-itch-io text-highlight" aria-hidden="true"></i>
+                    Itch.io
+                </a>
+                </li>
+                
+            </ul>
+        </nav>
+        
+        
+        <span class="opace-color secondary-text-color text-align-center">Hecho con <a class="link d-inline-block" href="https://gohugo.io/">Hugo</a> y alojado en <a class="link d-inline-block" href="https://github.com/">Github</a> <br>
+            <a class="link d-inline-block" href="https://x.com/yeonat_">yeonat</a> ©2022-2026</span>
+        
+    </div>
+</footer></body>
+
+
+<script type="text/javascript" src="https://yeonat.github.io/page/js/yehonat-scroll-to-top.min.bcc4a73a29a4e860be9fc0b76d88d4d0742ca808c8392120ce214506a31dc8e5.js" integrity="sha256-vMSnOimk6GC&#43;n8C3bYjU0HQsqAjIOSEgziFFBqMdyOU=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://yeonat.github.io/page/js/yehonat-copy-to-clipboard.min.8b3aa716eab73e8e5e8146fb5e5fe80229b4aadf74269ceed350986048342b76.js" integrity="sha256-izqnFuq3Po5egUb7Xl/oAim0qt90Jpzu01CYYEg0K3Y=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://yeonat.github.io/page/js/yehonat-burger-btn.min.543ad6655f53e2de59b16ad3dbeee3172db498c39eb36b88fe53c66f5628d576.js" integrity="sha256-VDrWZV9T4t5ZsWrT2&#43;7jFy20mMOes2uI/lPGb1Yo1XY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://yeonat.github.io/page/js/medium-zoom.min.1e0f283fdf1e793b5336317f306ffa49d885aa9ff599ae9d1d6eb1b0ec44b489.js" integrity="sha256-Hg8oP98eeTtTNjF/MG/6SdiFqp/1ma6dHW6xsOxEtIk=" crossorigin="anonymous"></script>
+
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('yehonat', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#fcbf47',
+    'floating-chat.donateButton.text-color': '#323842'
+  });
+</script>
+
+</html>
