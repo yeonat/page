@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Academies on Jonatan Sosa</title>
-		<link>https://yeonat.dev/academies/</link>
+		<link>https://www.yeonat.dev/academies/</link>
 		<description>Recent content in Academies on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Sat, 07 May 2022 01:37:24 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.dev/academies/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.yeonat.dev/academies/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Stackskills</title>
-				<link>https://yeonat.dev/academies/stackskills/</link>
+				<link>https://www.yeonat.dev/academies/stackskills/</link>
 				<pubDate>Sat, 07 May 2022 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.dev/academies/stackskills/</guid>
+				<guid>https://www.yeonat.dev/academies/stackskills/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gamedev.tv</title>
-				<link>https://yeonat.dev/academies/gamedev.tv/</link>
+				<link>https://www.yeonat.dev/academies/gamedev.tv/</link>
 				<pubDate>Thu, 05 May 2022 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.dev/academies/gamedev.tv/</guid>
+				<guid>https://www.yeonat.dev/academies/gamedev.tv/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Zenva Academy</title>
-				<link>https://yeonat.dev/academies/zenva-academy/</link>
+				<link>https://www.yeonat.dev/academies/zenva-academy/</link>
 				<pubDate>Thu, 15 Jul 2021 00:14:06 -0500</pubDate>
-				<guid>https://yeonat.dev/academies/zenva-academy/</guid>
+				<guid>https://www.yeonat.dev/academies/zenva-academy/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Domestika</title>
-				<link>https://yeonat.dev/academies/domestika/</link>
+				<link>https://www.yeonat.dev/academies/domestika/</link>
 				<pubDate>Tue, 12 May 2020 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.dev/academies/domestika/</guid>
+				<guid>https://www.yeonat.dev/academies/domestika/</guid>
 				<description></description>
 			</item>
 	</channel>

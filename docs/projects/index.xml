@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Projects on Jonatan Sosa</title>
-		<link>https://yeonat.dev/projects/</link>
+		<link>https://www.yeonat.dev/projects/</link>
 		<description>Recent content in Projects on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.yeonat.dev/projects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Game</title>
-				<link>https://yeonat.dev/projects/game/</link>
+				<link>https://www.yeonat.dev/projects/game/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.dev/projects/game/</guid>
+				<guid>https://www.yeonat.dev/projects/game/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Professional</title>
-				<link>https://yeonat.dev/projects/professional/</link>
+				<link>https://www.yeonat.dev/projects/professional/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.dev/projects/professional/</guid>
+				<guid>https://www.yeonat.dev/projects/professional/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Personal</title>
-				<link>https://yeonat.dev/projects/personal/</link>
+				<link>https://www.yeonat.dev/projects/personal/</link>
 				<pubDate>Fri, 11 Sep 2026 09:55:20 -0500</pubDate>
-				<guid>https://yeonat.dev/projects/personal/</guid>
+				<guid>https://www.yeonat.dev/projects/personal/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Simulator</title>
-				<link>https://yeonat.dev/projects/simulator/</link>
+				<link>https://www.yeonat.dev/projects/simulator/</link>
 				<pubDate>Fri, 12 Sep 2025 20:39:13 -0500</pubDate>
-				<guid>https://yeonat.dev/projects/simulator/</guid>
+				<guid>https://www.yeonat.dev/projects/simulator/</guid>
 				<description></description>
 			</item>
 	</channel>

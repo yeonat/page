@@ -2,337 +2,337 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yeonat.dev/tags/csharp/</loc>
+    <loc>https://www.yeonat.dev/tags/csharp/</loc>
     <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/events/</loc>
+    <loc>https://www.yeonat.dev/blog/events/</loc>
     <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/tags/</loc>
+    <loc>https://www.yeonat.dev/tags/</loc>
     <lastmod>2026-10-03T19:54:21-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/tags/"
+                href="https://www.yeonat.dev/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/tags/"
+                href="https://www.yeonat.dev/en/tags/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/tags/unity/</loc>
+    <loc>https://www.yeonat.dev/tags/unity/</loc>
     <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/attributes/</loc>
+    <loc>https://www.yeonat.dev/blog/attributes/</loc>
     <lastmod>2026-10-03T19:31:10-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/delegates/</loc>
+    <loc>https://www.yeonat.dev/blog/delegates/</loc>
     <lastmod>2026-10-03T18:56:49-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/quaternions/</loc>
+    <loc>https://www.yeonat.dev/blog/quaternions/</loc>
     <lastmod>2026-10-03T17:38:07-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/coroutines/</loc>
+    <loc>https://www.yeonat.dev/blog/coroutines/</loc>
     <lastmod>2026-10-03T16:03:47-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/lists-and-dictionaries/</loc>
+    <loc>https://www.yeonat.dev/blog/lists-and-dictionaries/</loc>
     <lastmod>2026-10-03T14:44:27-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/namespaces/</loc>
+    <loc>https://www.yeonat.dev/blog/namespaces/</loc>
     <lastmod>2026-10-03T14:22:52-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/extension-methods/</loc>
+    <loc>https://www.yeonat.dev/blog/extension-methods/</loc>
     <lastmod>2026-10-03T14:00:27-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/interfaces/</loc>
+    <loc>https://www.yeonat.dev/blog/interfaces/</loc>
     <lastmod>2026-10-03T13:04:59-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/overriding/</loc>
+    <loc>https://www.yeonat.dev/blog/overriding/</loc>
     <lastmod>2026-10-03T11:50:04-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/member-hiding/</loc>
+    <loc>https://www.yeonat.dev/blog/member-hiding/</loc>
     <lastmod>2026-10-03T11:30:50-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/polymorphism/</loc>
+    <loc>https://www.yeonat.dev/blog/polymorphism/</loc>
     <lastmod>2026-10-03T09:57:05-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/inheritance/</loc>
+    <loc>https://www.yeonat.dev/blog/inheritance/</loc>
     <lastmod>2026-10-02T18:49:00-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/generics/</loc>
+    <loc>https://www.yeonat.dev/blog/generics/</loc>
     <lastmod>2026-10-02T15:34:00-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/curriculum/</loc>
+    <loc>https://www.yeonat.dev/curriculum/</loc>
     <lastmod>2026-09-15T14:20:55-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/stacks/cpp/</loc>
+    <loc>https://www.yeonat.dev/stacks/cpp/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/stacks/cpp/"
+                href="https://www.yeonat.dev/stacks/cpp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/stacks/cpp/"
+                href="https://www.yeonat.dev/en/stacks/cpp/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/projects/game/</loc>
+    <loc>https://www.yeonat.dev/projects/game/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/projects/game/"
+                href="https://www.yeonat.dev/projects/game/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/projects/game/"
+                href="https://www.yeonat.dev/en/projects/game/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/projects/professional/</loc>
+    <loc>https://www.yeonat.dev/projects/professional/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/projects/professional/"
+                href="https://www.yeonat.dev/projects/professional/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/projects/professional/"
+                href="https://www.yeonat.dev/en/projects/professional/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/projects/</loc>
+    <loc>https://www.yeonat.dev/projects/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/projects/"
+                href="https://www.yeonat.dev/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/projects/"
+                href="https://www.yeonat.dev/en/projects/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/stacks/</loc>
+    <loc>https://www.yeonat.dev/stacks/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/stacks/"
+                href="https://www.yeonat.dev/stacks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/stacks/"
+                href="https://www.yeonat.dev/en/stacks/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/stacks/unreal/</loc>
+    <loc>https://www.yeonat.dev/stacks/unreal/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/stacks/unreal/"
+                href="https://www.yeonat.dev/stacks/unreal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/stacks/unreal/"
+                href="https://www.yeonat.dev/en/stacks/unreal/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</loc>
+    <loc>https://www.yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</loc>
     <lastmod>2026-09-11T11:03:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/"
+                href="https://www.yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/portfolio/warrior-cats-clans-of-the-forest/"
+                href="https://www.yeonat.dev/en/portfolio/warrior-cats-clans-of-the-forest/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</loc>
+    <loc>https://www.yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</loc>
     <lastmod>2026-09-11T10:43:49-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/"
+                href="https://www.yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/portfolio/looney-tunes-wacky-world-of-sports/"
+                href="https://www.yeonat.dev/en/portfolio/looney-tunes-wacky-world-of-sports/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/portfolio/avatar-the-last-airbender/</loc>
+    <loc>https://www.yeonat.dev/portfolio/avatar-the-last-airbender/</loc>
     <lastmod>2026-09-11T10:21:39-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/portfolio/avatar-the-last-airbender/"
+                href="https://www.yeonat.dev/portfolio/avatar-the-last-airbender/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/portfolio/avatar-the-last-airbender/"
+                href="https://www.yeonat.dev/en/portfolio/avatar-the-last-airbender/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/stacks/c%23/</loc>
+    <loc>https://www.yeonat.dev/stacks/c%23/</loc>
     <lastmod>2026-09-11T09:55:20-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/projects/personal/</loc>
+    <loc>https://www.yeonat.dev/projects/personal/</loc>
     <lastmod>2026-09-11T09:55:20-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/snowbot-factory-rush/</loc>
+    <loc>https://www.yeonat.dev/portfolio/snowbot-factory-rush/</loc>
     <lastmod>2026-09-11T09:55:20-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/stacks/unity/</loc>
+    <loc>https://www.yeonat.dev/stacks/unity/</loc>
     <lastmod>2026-09-11T09:55:20-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/projects/simulator/</loc>
+    <loc>https://www.yeonat.dev/projects/simulator/</loc>
     <lastmod>2025-09-12T20:39:13-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/vr-fire-extinguisher-simulation/</loc>
+    <loc>https://www.yeonat.dev/portfolio/vr-fire-extinguisher-simulation/</loc>
     <lastmod>2025-09-12T20:39:13-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/academies/</loc>
+    <loc>https://www.yeonat.dev/academies/</loc>
     <lastmod>2022-05-07T01:37:24-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/academies/"
+                href="https://www.yeonat.dev/academies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/academies/"
+                href="https://www.yeonat.dev/en/academies/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/certificates/</loc>
+    <loc>https://www.yeonat.dev/certificates/</loc>
     <lastmod>2022-05-07T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/academies/stackskills/</loc>
+    <loc>https://www.yeonat.dev/academies/stackskills/</loc>
     <lastmod>2022-05-07T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/certificates/the-unity-csharp-survival-guide/</loc>
+    <loc>https://www.yeonat.dev/certificates/the-unity-csharp-survival-guide/</loc>
     <lastmod>2022-05-07T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/academies/gamedev.tv/</loc>
+    <loc>https://www.yeonat.dev/academies/gamedev.tv/</loc>
     <lastmod>2022-05-05T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</loc>
+    <loc>https://www.yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</loc>
     <lastmod>2022-05-05T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/aliens-use-digging-machine/</loc>
+    <loc>https://www.yeonat.dev/portfolio/aliens-use-digging-machine/</loc>
     <lastmod>2022-04-11T19:21:08-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/falling-bird/</loc>
+    <loc>https://www.yeonat.dev/portfolio/falling-bird/</loc>
     <lastmod>2022-03-16T17:48:00-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/mataratas/</loc>
+    <loc>https://www.yeonat.dev/portfolio/mataratas/</loc>
     <lastmod>2021-08-26T01:30:55-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/not-that-way/</loc>
+    <loc>https://www.yeonat.dev/portfolio/not-that-way/</loc>
     <lastmod>2021-08-26T01:11:26-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/astronaut-vs-aliens/</loc>
+    <loc>https://www.yeonat.dev/portfolio/astronaut-vs-aliens/</loc>
     <lastmod>2021-08-25T23:58:50-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/boy-adventure-the-game/</loc>
+    <loc>https://www.yeonat.dev/portfolio/boy-adventure-the-game/</loc>
     <lastmod>2021-08-25T22:30:29-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/method-overloading/</loc>
+    <loc>https://www.yeonat.dev/blog/method-overloading/</loc>
     <lastmod>2021-08-13T14:06:55-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/static/</loc>
+    <loc>https://www.yeonat.dev/blog/static/</loc>
     <lastmod>2021-08-06T13:04:05-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/certificates/intro-to-game-development-with-unity/</loc>
+    <loc>https://www.yeonat.dev/certificates/intro-to-game-development-with-unity/</loc>
     <lastmod>2021-07-15T00:14:06-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/academies/zenva-academy/</loc>
+    <loc>https://www.yeonat.dev/academies/zenva-academy/</loc>
     <lastmod>2021-07-15T00:14:06-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/ternary-operator/</loc>
+    <loc>https://www.yeonat.dev/blog/ternary-operator/</loc>
     <lastmod>2021-06-12T16:21:10-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/blog/propierties/</loc>
+    <loc>https://www.yeonat.dev/blog/propierties/</loc>
     <lastmod>2021-06-05T14:16:40-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/</loc>
+    <loc>https://www.yeonat.dev/portfolio/</loc>
     <lastmod>2020-07-06T18:39:30-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/portfolio/"
+                href="https://www.yeonat.dev/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/portfolio/"
+                href="https://www.yeonat.dev/en/portfolio/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/blog/</loc>
+    <loc>https://www.yeonat.dev/blog/</loc>
     <lastmod>2020-07-06T18:19:55-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/blog/"
+                href="https://www.yeonat.dev/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/blog/"
+                href="https://www.yeonat.dev/en/blog/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/about/</loc>
+    <loc>https://www.yeonat.dev/about/</loc>
     <lastmod>2020-07-06T18:19:46-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/about/"
+                href="https://www.yeonat.dev/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/about/"
+                href="https://www.yeonat.dev/en/about/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/</loc>
+    <loc>https://www.yeonat.dev/</loc>
     <lastmod>2020-07-03T20:05:18-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://yeonat.dev/"
+                href="https://www.yeonat.dev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://yeonat.dev/en/"
+                href="https://www.yeonat.dev/en/"
                 />
   </url><url>
-    <loc>https://yeonat.dev/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</loc>
+    <loc>https://www.yeonat.dev/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</loc>
     <lastmod>2020-05-12T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/academies/domestika/</loc>
+    <loc>https://www.yeonat.dev/academies/domestika/</loc>
     <lastmod>2020-05-12T01:37:24-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/certificates/introduccion-a-unity-para-videojuegos-2d/</loc>
+    <loc>https://www.yeonat.dev/certificates/introduccion-a-unity-para-videojuegos-2d/</loc>
     <lastmod>2020-04-25T01:16:39-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/ar-obstetra/</loc>
+    <loc>https://www.yeonat.dev/portfolio/ar-obstetra/</loc>
     <lastmod>2019-08-26T01:35:55-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/care-fichas-interactivas/</loc>
+    <loc>https://www.yeonat.dev/portfolio/care-fichas-interactivas/</loc>
     <lastmod>2019-08-26T01:34:55-05:00</lastmod>
   </url><url>
-    <loc>https://yeonat.dev/portfolio/vr-iluminarias/</loc>
+    <loc>https://www.yeonat.dev/portfolio/vr-iluminarias/</loc>
     <lastmod>2019-08-26T01:32:55-05:00</lastmod>
   </url>
 </urlset>

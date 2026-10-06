@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Gamedev.tv on Jonatan Sosa</title>
-		<link>https://yeonat.dev/academies/gamedev.tv/</link>
+		<link>https://www.yeonat.dev/academies/gamedev.tv/</link>
 		<description>Recent content in Gamedev.tv on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 05 May 2022 01:37:24 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.dev/academies/gamedev.tv/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.yeonat.dev/academies/gamedev.tv/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Math For Video Games: The Fastest Way To Get Smarter At Math</title>
-				<link>https://yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</link>
+				<link>https://www.yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</link>
 				<pubDate>Thu, 05 May 2022 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</guid>
+				<guid>https://www.yeonat.dev/certificates/math-for-video-games-the-fastest-way-to-get-smarter-at-math/</guid>
 				<description></description>
 			</item>
 	</channel>

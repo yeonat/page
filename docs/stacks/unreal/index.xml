@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Unreal on Jonatan Sosa</title>
-		<link>https://yeonat.dev/stacks/unreal/</link>
+		<link>https://www.yeonat.dev/stacks/unreal/</link>
 		<description>Recent content in Unreal on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.dev/stacks/unreal/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.yeonat.dev/stacks/unreal/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Warrior Cats Clans of the Forest</title>
-				<link>https://yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</link>
+				<link>https://www.yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</guid>
+				<guid>https://www.yeonat.dev/portfolio/warrior-cats-clans-of-the-forest/</guid>
 				<description>&lt;h1 id=&#34;warrior-cats-clans-of-the-forest-trailer&#34;&gt;Warrior Cats Clans of the Forest Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/KydfEOzdNkw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;gameplay-programmer--quest--achievement-systems&#34;&gt;Gameplay Programmer – Quest &amp;amp; Achievement Systems&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: RPG de acción y aventura basado en el universo literario de Warrior Cats.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;arquitectura-de-misiones-y-logros&#34;&gt;Arquitectura de Misiones y Logros&lt;/h2&gt;&#xA;&lt;p&gt;Diseño e implementación de una arquitectura modular para gestionar misiones principales y secundarias a través de los cuatro clanes, controlando estados complejos (bloqueos, activadores en mundo abierto, progresión por pasos y recompensas en guarida).&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Looney Tunes Wacky World of Sports</title>
-				<link>https://yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</link>
+				<link>https://www.yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</link>
 				<pubDate>Fri, 11 Sep 2026 10:43:49 -0500</pubDate>
-				<guid>https://yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</guid>
+				<guid>https://www.yeonat.dev/portfolio/looney-tunes-wacky-world-of-sports/</guid>
 				<description>&lt;h1 id=&#34;looney-tunes-wacky-world-of-sports-trailer&#34;&gt;Looney Tunes Wacky World of Sports Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/eJIsVjqy6nY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;gameplay-programmer--challenges--achievement-systems&#34;&gt;Gameplay Programmer – Challenges &amp;amp; Achievement Systems&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: Título arcade multideporte basado en una franquicia clásica de Warner Bros. con 4 deportes (Fútbol, Baloncesto, Tenis y Golf)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;arquitectura-de-progresión-y-sistemas&#34;&gt;Arquitectura de Progresión y Sistemas&lt;/h2&gt;&#xA;&lt;p&gt;Diseño e implementación desde cero de una arquitectura modular para rastrear, procesar y desbloquear logros y desafíos dinámicos en todos los modos de juego.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Avatar: The Last Airbender: Quest for Balance</title>
-				<link>https://yeonat.dev/portfolio/avatar-the-last-airbender/</link>
+				<link>https://www.yeonat.dev/portfolio/avatar-the-last-airbender/</link>
 				<pubDate>Fri, 11 Sep 2026 10:21:39 -0500</pubDate>
-				<guid>https://yeonat.dev/portfolio/avatar-the-last-airbender/</guid>
+				<guid>https://www.yeonat.dev/portfolio/avatar-the-last-airbender/</guid>
 				<description>&lt;h1 id=&#34;avatar-the-last-airbender-trailer&#34;&gt;Avatar: The Last Airbender Trailer&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1WsMzwqnqgc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;gameplay-programmer--technical-scripting&#34;&gt;Gameplay Programmer &amp;amp; Technical Scripting&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: Título oficial de acción y aventura cooperativo basado en una serie de televisión original.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;sistemas-de-diálogo-y-narrativa&#34;&gt;Sistemas de Diálogo y Narrativa&lt;/h2&gt;&#xA;&lt;p&gt;Integración de árboles de diálogo complejos y flujos narrativos en Unreal Engine.&lt;/p&gt;&#xA;&lt;p&gt;Conexión de activadores (triggers) en escena, eventos de audio/texto y secuencias cinemáticas para sincronizar la jugabilidad con los momentos narrativos sin alterar el guion original.&lt;/p&gt;</description>
 			</item>
 	</channel>
