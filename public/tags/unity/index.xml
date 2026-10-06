@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Unity on Jonatan Sosa</title>
+		<link>https://yeonat.dev/tags/unity/</link>
+		<description>Recent content in Unity on Jonatan Sosa</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 03 Oct 2026 19:54:21 -0500</lastBuildDate>
+		
+			<atom:link href="https://yeonat.dev/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Events en C#</title>
+				<link>https://yeonat.dev/blog/events/</link>
+				<pubDate>Sat, 03 Oct 2026 19:54:21 -0500</pubDate>
+				<guid>https://yeonat.dev/blog/events/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/un-grupo-de-cuadrados-rosados-y-blancos-rP_pS1VMd7c&#34; target=&#34;_blank&#34;&gt;Imagen por Vadim Bogulov&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;los-eventos-son-delegados-especializados-que-son-útiles-cuando-quieres-alertar-a-otras-clases-que-algo-está-ocurriendo&#34;&gt;Los &lt;em&gt;eventos&lt;/em&gt; son delegados especializados que son útiles cuando quieres alertar a otras clases que algo está ocurriendo.&lt;/h1&gt;&#xA;&lt;p&gt;En la práctica, verás que los &lt;em&gt;eventos&lt;/em&gt; funcionan de manera similar a los delegados públicos de multidifusión. Para obtener más información sobre los delegados, por favor consulta la lección sobre delegados vinculada en la parte inferior de este tutorial.&lt;/p&gt;&#xA;&lt;p&gt;Un &lt;em&gt;evento&lt;/em&gt; puede considerarse como un sistema de emisión, cualquier clase que esté Interesada en un &lt;em&gt;evento&lt;/em&gt; puede suscribirle métodos. Cuando esa situación específica ocurra, como hacer clic en un botón, un potenciador o la herida a un jugador, invocamos nuestro &lt;em&gt;evento&lt;/em&gt; y este a su vez invoca los métodos de las clases suscritas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Attributes en Unity</title>
+				<link>https://yeonat.dev/blog/attributes/</link>
+				<pubDate>Sat, 03 Oct 2026 19:31:10 -0500</pubDate>
+				<guid>https://yeonat.dev/blog/attributes/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/ventana-multicolor-con-letrero-de-apertura-pXW5ZLx2mbY&#34; target=&#34;_blank&#34;&gt;Imagen por Michael Trimble&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;aprenderás-el-formato-de-los-atributos-así-como-también-cómo-usar-los-atributos-range-y-executeineditmode&#34;&gt;Aprenderás el formato de los atributos, así como también cómo usar los atributos &lt;em&gt;Range&lt;/em&gt; y &lt;em&gt;ExecuteInEditMode&lt;/em&gt;.&lt;/h1&gt;&#xA;&lt;p&gt;Los atributos te permiten anexar información a un método, una variable o una clase, cuando los declaras. Es muy útil para tomar código existente y mejorarlo o cambiarlo de alguna manera.&lt;/p&gt;&#xA;&lt;p&gt;Los atributos varían mucho en sus efectos y sus usos. Aquí tenemos una escena en &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Unity&lt;/code&gt; con una esfera. La esfera tiene un &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;SpinScript&lt;/code&gt; anexado. Ten en cuenta la variable &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Speed&lt;/code&gt; del script, la misma que actualmente está configurada a &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;0&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Delegates en C#</title>
+				<link>https://yeonat.dev/blog/delegates/</link>
+				<pubDate>Sat, 03 Oct 2026 18:56:49 -0500</pubDate>
+				<guid>https://yeonat.dev/blog/delegates/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/edificios-de-gran-altura-durante-la-noche-GmTxsWc0U18&#34; target=&#34;_blank&#34;&gt;Imagen por Artur Shamsutdinov&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;Los &lt;em&gt;delegados&lt;/em&gt; te permiten crear comportamientos robustos y complejos dentro de tus &lt;em&gt;scripts&lt;/em&gt;. Un &lt;em&gt;delegado&lt;/em&gt; puede considerarse simplemente como un contenedor para una función que puede pasarse de un lado al otro o usarse como una variable.&lt;/p&gt;&#xA;&lt;p&gt;Al igual que las variables, a los &lt;em&gt;delegados&lt;/em&gt; se les puede asignar valores y estos valores pueden cambiarse durante el &lt;em&gt;runtime&lt;/em&gt;. La diferencia es que, mientras que las variables contienen datos, los &lt;em&gt;delegados&lt;/em&gt; contienen &lt;em&gt;funciones&lt;/em&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Quaternions</title>
+				<link>https://yeonat.dev/blog/quaternions/</link>
+				<pubDate>Sat, 03 Oct 2026 17:38:07 -0500</pubDate>
+				<guid>https://yeonat.dev/blog/quaternions/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-mano-sosteniendo-una-tarjeta-de-juego-bf2zY-dG7fg&#34; target=&#34;_blank&#34;&gt;Imagen por Izzy Park&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;En &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Unity&lt;/code&gt;, la rotación de un &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Trasform&lt;/code&gt; se guarda como un &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;Quaternion&lt;/code&gt; (cuaternio). Funcionan de manera similar a los &lt;em&gt;vectores&lt;/em&gt; pero tienen cuatro componentes: &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;x, y, z&lt;/code&gt;  y &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;w&lt;/code&gt;. Estos componentes son interdependientes y trabajan juntos para definir cualquier rotación que un objeto pueda necesitar.&lt;/p&gt;&#xA;&lt;p&gt;Una de las cosas más importantes que debemos recordar cuando estamos usando cuaternios es que desde que los componentes &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;x, y, z&lt;/code&gt;  y &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;w&lt;/code&gt; funcionan juntos, nunca deberías ajustarlos individualmente.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Coroutines</title>
+				<link>https://yeonat.dev/blog/coroutines/</link>
+				<pubDate>Sat, 03 Oct 2026 16:03:47 -0500</pubDate>
+				<guid>https://yeonat.dev/blog/coroutines/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-mesa-llena-de-personajes-coloridos-en-pixel-art-y-manualidades-xc3nDajHliE&#34; target=&#34;_blank&#34;&gt;Imagen por Aaron Douglas&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;una-corrutina-puede-considerarse-una-función-que-se-ejecuta-en-intervalos&#34;&gt;Una corrutina puede considerarse una función que se ejecuta en intervalos.&lt;/h1&gt;&#xA;&lt;p&gt;Estas funciones trabajan con sentencias especiales tipo yield que regresan el código que ejecuta la función. Luego, cuando la función continúa, la ejecución empieza nuevamente, justo en donde lo dejó. Vamos a echarle un vistazo a un ejemplo de una corrutina.&lt;/p&gt;&#xA;&lt;p&gt;Para comenzar, vamos a echarle un vistazo a la corrutina, que tenemos que se llamada &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;MyCouroutine()&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
