@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Zenva Academy on Jonatan Sosa</title>
-		<link>https://yeonat.github.io/page/academies/zenva-academy/</link>
+		<link>www.yeonat.dev/academies/zenva-academy/</link>
 		<description>Recent content in Zenva Academy on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 15 Jul 2021 00:14:06 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/academies/zenva-academy/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="www.yeonat.dev/academies/zenva-academy/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Intro to Game Development with Unity</title>
-				<link>https://yeonat.github.io/page/certificates/intro-to-game-development-with-unity/</link>
+				<link>www.yeonat.dev/certificates/intro-to-game-development-with-unity/</link>
 				<pubDate>Thu, 15 Jul 2021 00:14:06 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/intro-to-game-development-with-unity/</guid>
+				<guid>www.yeonat.dev/certificates/intro-to-game-development-with-unity/</guid>
 				<description>&lt;h3 id=&#34;hahahugoshortcode13s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://academy.zenva.com/certificate/ff0a0182&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 	</channel>

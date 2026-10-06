@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Domestika on Jonatan Sosa</title>
-		<link>https://yeonat.github.io/page/academies/domestika/</link>
+		<link>www.yeonat.dev/academies/domestika/</link>
 		<description>Recent content in Domestika on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>es</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Tue, 12 May 2020 01:37:24 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/academies/domestika/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="www.yeonat.dev/academies/domestika/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Desarrollo De Videojuegos Shoot´Em Up 2d con Unity</title>
-				<link>https://yeonat.github.io/page/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</link>
+				<link>www.yeonat.dev/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</link>
 				<pubDate>Tue, 12 May 2020 01:37:24 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</guid>
+				<guid>www.yeonat.dev/certificates/desarrollo-de-videojuegos-shoot-em-up-2d-con-unity/</guid>
 				<description>&lt;h3 id=&#34;hahahugoshortcode10s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/703070895f6e3a5b9ed7df99e7d1b042&#34; target=&#34;_blank&#34;&gt;Verification URL&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 			<item>
 				<title>Introduccion a Unity Para Videojuegos 2d</title>
-				<link>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</link>
+				<link>www.yeonat.dev/certificates/introduccion-a-unity-para-videojuegos-2d/</link>
 				<pubDate>Sat, 25 Apr 2020 01:16:39 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/certificates/introduccion-a-unity-para-videojuegos-2d/</guid>
+				<guid>www.yeonat.dev/certificates/introduccion-a-unity-para-videojuegos-2d/</guid>
 				<description>&lt;h3 id=&#34;hahahugoshortcode14s0hbhb&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://www.domestika.org/es/certificates/dde37c0eb017f90be9b5e1dd20174eca&#34; target=&#34;_blank&#34;&gt;Verification URL &lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&lt;/h3&gt;</description>
 			</item>
 	</channel>

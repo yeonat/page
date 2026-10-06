@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Projects on Jonatan Sosa</title>
-		<link>https://yeonat.github.io/page/en/projects/</link>
+		<link>www.yeonat.dev/en/projects/</link>
 		<description>Recent content in Projects on Jonatan Sosa</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 11:03:37 -0500</lastBuildDate>
 		
-			<atom:link href="https://yeonat.github.io/page/en/projects/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="www.yeonat.dev/en/projects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Game</title>
-				<link>https://yeonat.github.io/page/en/projects/game/</link>
+				<link>www.yeonat.dev/en/projects/game/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/en/projects/game/</guid>
+				<guid>www.yeonat.dev/en/projects/game/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Professional</title>
-				<link>https://yeonat.github.io/page/en/projects/professional/</link>
+				<link>www.yeonat.dev/en/projects/professional/</link>
 				<pubDate>Fri, 11 Sep 2026 11:03:37 -0500</pubDate>
-				<guid>https://yeonat.github.io/page/en/projects/professional/</guid>
+				<guid>www.yeonat.dev/en/projects/professional/</guid>
 				<description></description>
 			</item>
 	</channel>
