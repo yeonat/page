@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yeonat.dev/tags/csharp/</loc>
-    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
+    <loc>https://www.yeonat.dev/blog/architecture_reflection_cpp_ue_practical_guide/</loc>
+    <lastmod>2026-10-05T17:31:27-05:00</lastmod>
   </url><url>
-    <loc>https://www.yeonat.dev/blog/events/</loc>
-    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
+    <loc>https://www.yeonat.dev/tags/cpp/</loc>
+    <lastmod>2026-10-05T17:31:27-05:00</lastmod>
   </url><url>
     <loc>https://www.yeonat.dev/tags/</loc>
-    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
+    <lastmod>2026-10-05T17:31:27-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -20,6 +20,15 @@
                 hreflang="en-us"
                 href="https://www.yeonat.dev/en/tags/"
                 />
+  </url><url>
+    <loc>https://www.yeonat.dev/tags/unreal/</loc>
+    <lastmod>2026-10-05T17:31:27-05:00</lastmod>
+  </url><url>
+    <loc>https://www.yeonat.dev/tags/csharp/</loc>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
+  </url><url>
+    <loc>https://www.yeonat.dev/blog/events/</loc>
+    <lastmod>2026-10-03T19:54:21-05:00</lastmod>
   </url><url>
     <loc>https://www.yeonat.dev/tags/unity/</loc>
     <lastmod>2026-10-03T19:54:21-05:00</lastmod>
