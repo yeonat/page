@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 05 Oct 2026 17:31:27 -0500</lastBuildDate>
+			<lastBuildDate>Tue, 06 Oct 2026 18:31:06 -0500</lastBuildDate>
 		
 			<atom:link href="https://www.yeonat.dev/tags/unreal/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Networking Autoritativo en Unreal Engine C&#43;&#43;: Guía Práctica</title>
+				<link>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</link>
+				<pubDate>Tue, 06 Oct 2026 18:31:06 -0500</pubDate>
+				<guid>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</guid>
+				<description>&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-mesa-cubierta-con-controladores-de-juegos-de-nintendo-y-un-televisor-B653c4q7m5Y&#34; target=&#34;_blank&#34;&gt;Imagen por Andrei Marinho.&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;El mayor error al abordar el multijugador en Unreal Engine es programar pensando como si el juego corriera en una sola máquina. En un entorno de red, cada acción debe responder a tres preguntas: ¿Quién tiene la verdad?, ¿Por dónde viaja el dato? y ¿Cómo evitamos que un cliente haga trampa o sature la red?&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-el-modelo-de-autoridad-hahahugoshortcode18s1hbhb&#34;&gt;1: El Modelo de Autoridad (&#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;HasAuthority&lt;/code&gt;)&lt;/h1&gt;&#xA;&lt;p&gt;En &lt;strong&gt;Unreal Engine&lt;/strong&gt; el servidor es el árbitro absoluto del estado del juego. Los clientes son terminales que envían intenciones (&lt;em&gt;inputs&lt;/em&gt;) y reciben la simulación resultante.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Arquitectura de Memoria, Reflexión y C&#43;&#43; en Unreal Engine: Guía Práctica</title>
 				<link>https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/</link>

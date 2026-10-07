@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="es" data-theme="light"><head>
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.166.0"><meta name="description" content="Programador de videojuegos con más de 6 años de experiencia lanzando proyectos multiplataforma en PC, consolas y móviles. Enfocado en escribir código limpio, desacoplado y de alto rendimiento.">
+    <meta name="keywords" content="developer, games, simulators, pixel, art, unity, csharp, unreal, cpp, pizza, yeonat ">
+    <meta name="author" content="Jonatan Sosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://www.yeonat.dev/css/style.min.ff2258620a43929dc7f9a7dcaa15e2c1b8a76488b353a959628476d0d8e8468e.css" integrity="sha256-/yJYYgpDkp3H&#43;afcqhXiwbinZIizU6lZYoR20NjoRo4=" crossorigin="anonymous" type="text/css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.yeonat.dev/favicons/favicon.ico" sizes="any">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://www.yeonat.dev/">
+    
+    <meta name="twitter:title" content="Networking Autoritativo en Unreal Engine C&#43;&#43;: Guía Práctica">
+    <meta name="twitter:description" content="Aprende paso a paso el flujo cliente-servidor en C&#43;&#43; y pruébalo con latencia simulada en el editor.">
+    <meta name="twitter:image" content="/blog/_20_architecture_reflection_cpp_ue_practical_guide.png">
+    
+    <title>Networking Autoritativo en Unreal Engine C&#43;&#43;: Guía Práctica — Jonatan Sosa</title>
+    
+    
+    
+    <script type="text/javascript" src="https://www.yeonat.dev/js/yeonat-theme.min.26ca13e73538f2e8c06a988c59ff7b0c2fe18c0326bf1e9018e45bf491e9929b.js" integrity="sha256-JsoT5zU48ujAapiMWf97DC/hjAMmvx6QGORb9JHpkps=" crossorigin="anonymous"></script>
+  </head><body>
+
+
+<header id="header" class="w-100">
+    <div class="container margin-remove padding-remove ">
+        <div id="header-body-desktop" class="d-flex j-content-center a-items-center font-weight-600">
+     
+    <div>
+        <nav class="navigation border">
+            <ul class="separate-list d-flex j-content-space-between a-items-center ">
+                
+                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="welcome"  href="/"><i class="fa-solid fa-house" aria-hidden="true"></i> Bienvenido</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="portfolio"  href="/portfolio/"><i class="fa-solid fa-folder" aria-hidden="true"></i> Proyectos</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="about"  href="/about/"><i class="fa-solid fa-user" aria-hidden="true"></i> Conóceme</a></li>                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                <li><a data-section="blog"  class="current" href="/blog/"><i class="fa-solid fa-pen" aria-hidden="true"></i> Blog</a></li>                
+                
+                <li class="separate-item">
+                    |
+                </li>
+                <li>
+                    
+
+
+
+
+
+    
+
+    
+        
+        
+    
+
+
+<a href="/en/" class="lang-toggle" role="button" aria-label="Cambiar idioma / Switch language" title="Switch to English">
+    <span class="lang-label is-active">ES</span>
+    <span class="lang-track">
+        <span class="lang-slider "></span>
+    </span>
+    <span class="lang-label ">EN</span>
+</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+</div>
+
+
+        
+<div id="header-body-mobile" class="title-font d-flex j-content-space-between">
+     
+    <div>
+        <nav class="navigation border">
+            <ul class="separate-list d-flex j-content-space-between a-items-center ">
+                
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="welcome"  href="/"><i class="fa-solid fa-house" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="portfolio"  href="/portfolio/"><i class="fa-solid fa-folder" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="about"  href="/about/"><i class="fa-solid fa-user" aria-hidden="true"></i> </a></li>
+                
+                
+                
+                    
+                
+                
+                
+                    
+                    
+                    
+                
+                
+                
+                
+                <li><a data-section="blog"  class="current"  href="/blog/"><i class="fa-solid fa-pen" aria-hidden="true"></i> </a></li>
+                
+                <li class="separate-item">
+                    |
+                </li>
+                <li>
+                    
+
+
+
+
+
+    
+
+    
+        
+        
+    
+
+
+<a href="/en/" class="lang-toggle" role="button" aria-label="Cambiar idioma / Switch language" title="Switch to English">
+    <span class="lang-label is-active">ES</span>
+    <span class="lang-track">
+        <span class="lang-slider "></span>
+    </span>
+    <span class="lang-label ">EN</span>
+</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+</div>
+
+
+<div id="menu-wrapper" class="container title-font hidden-element">
+    <div id="menu-animate" class="w-100 h-100 animated">
+        <div class="menu-nav w-100 h-100 d-flex-nowrap j-content-center j-content-space-evenly flex-direction-column">
+            <div class="d-flex j-content-start a-items-center">
+            </div>
+            
+            <nav class="menu-navigation mobile d-flex j-content-start">
+                <ul class="d-flex a-items-start flex-direction-column text-align-start">
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="welcome" href="/">Bienvenido</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="portfolio" href="/portfolio/">Proyectos</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="about" href="/about/">Conóceme</a></li>
+                    
+                    
+                    
+                        
+                    
+                    
+                    <li class="font-weight-900"><a data-section="blog" href="/blog/">Blog</a></li>
+                    
+                </ul>
+            </nav>
+            
+            
+            <nav class="social-navigation mobile d-flex j-content-start">
+                <ul class="separate-list-3x d-flex">
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/jonatansosa/" rel="me" aria-label="LinkedIn" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.youtube.com/@yeonat" rel="me" aria-label="Youtube" target="_blank" title="Youtube">
+                        <i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://yeonat.itch.io/" rel="me" aria-label="Itch.io" target="_blank" title="Itch.io">
+                        <i class="fab fa-itch-io" aria-hidden="true"></i></a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            
+            <div class="d-flex j-content-start a-items-center padding-top">
+                <a class="d-block social-icon theme-switch-m">
+                    <i id="toggle-on-mobile" class="fa fa-toggle-on"></i>
+                    <i id="toggle-off-mobile" class="fa fa-toggle-off"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</header><div id="content">
+
+
+
+
+
+
+<div class="content-component animated fadeInDown">
+    <div class="container container-wrapper">
+        
+        <div class="d-flex j-content-space-between ground-space">
+            <span class="opace-color d-block a-items-center">06/10/26  · 7 min de lectura </span>
+
+<ul class="d-flex j-content-end a-items-center share-link">
+    <li><a class=" opace-color" target="_blank" title="x-icon" href="http://twitter.com/intent/tweet?text=Networking%20Autoritativo%20en%20Unreal%20Engine%20C%2b%2b%3a%20Gu%c3%ada%20Pr%c3%a1ctica&url=https%3a%2f%2fwww.yeonat.dev%2fblog%2fauthoritative-network-model-in-unreal-engine%2f"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.yeonat.dev%2fblog%2fauthoritative-network-model-in-unreal-engine%2f&title=&summary=&source="><i class="fab fa-linkedin"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Facebook" href="http://www.facebook.com/share.php?u=https%3a%2f%2fwww.yeonat.dev%2fblog%2fauthoritative-network-model-in-unreal-engine%2f&quote=Networking%20Autoritativo%20en%20Unreal%20Engine%20C%2b%2b%3a%20Gu%c3%ada%20Pr%c3%a1ctica%20-%20Jonatan%20Sosa"><i class="fab fa-facebook-square"></i></a></li>
+    <li><a class=" opace-color" target="_blank" title="Email" href="mailto:?&body=https%3a%2f%2fwww.yeonat.dev%2fblog%2fauthoritative-network-model-in-unreal-engine%2f"><i class="fas fa-envelope"></i></a></li>
+</ul>
+
+</div>
+        <div class="title-component title-font">
+            <h1 class="margin-remove">Networking Autoritativo en Unreal Engine C&#43;&#43;: Guía Práctica</h1>
+        </div>
+        
+    </div>
+    
+    <div class="container-h-100 container-wrapper">
+        <p class="opace-color content-description subtitle-font margin-remove">Aprende paso a paso el flujo cliente-servidor en C++ y pruébalo con latencia simulada en el editor.</p>
+    </div>
+   
+    
+    
+    <div class="container container-wrapper content-post">
+        <img class="w-100" src="/blog/_20_architecture_reflection_cpp_ue_practical_guide.png" alt="">
+    </div>
+    
+    
+    <div class="container container-wrapper content content-post">
+        
+
+
+
+<a class="link d-inline-block" href="https://unsplash.com/es/fotos/una-mesa-cubierta-con-controladores-de-juegos-de-nintendo-y-un-televisor-B653c4q7m5Y" target="_blank">Imagen por Andrei Marinho.</a>
+
+
+<p>El mayor error al abordar el multijugador en Unreal Engine es programar pensando como si el juego corriera en una sola máquina. En un entorno de red, cada acción debe responder a tres preguntas: ¿Quién tiene la verdad?, ¿Por dónde viaja el dato? y ¿Cómo evitamos que un cliente haga trampa o sature la red?</p>
+<h1 id="1-el-modelo-de-autoridad-hahahugoshortcode18s1hbhb">1: El Modelo de Autoridad (
+
+<code class="kbd border">HasAuthority</code>)</h1>
+<p>En <strong>Unreal Engine</strong> el servidor es el árbitro absoluto del estado del juego. Los clientes son terminales que envían intenciones (<em>inputs</em>) y reciben la simulación resultante.</p>
+<p>
+<img src="/blog/_20_architecture_reflection_cpp_ue_practical_guide_a.png" alt="img">
+
+</p>
+<p>El motor asigna a cada máquina un rol de red (
+
+<code class="kbd border">ENetRole</code>) sobre cada actor:</p>
+<ul>
+<li>
+<p>
+
+<code class="kbd border">ROLE_Authority</code>: El servidor; el único con permiso para restar salud, gastar recursos o spawnear proyectiles con colisión real.</p>
+</li>
+<li>
+<p>
+
+<code class="kbd border">ROLE_AutonomousProxy</code>: El cliente local que controla directamente a su personaje; lee la entrada del teclado y predice movimiento local.</p>
+</li>
+<li>
+<p>
+
+<code class="kbd border">ROLE_SimulatedProxy</code>: Los otros jugadores en la pantalla de un cliente; solo interpolan la posición y el estado que el servidor les envía.</p>
+</li>
+</ul>
+<h1 id="2-replicación-de-variables-y-repnotify-hahahugoshortcode18s6hbhb">2: Replicación de Variables y RepNotify (
+
+<code class="kbd border">OnRep</code>)</h1>
+<p>Una vez que el servidor cambia un valor, ese dato debe viajar a los clientes. Las variables replicadas tienen una regla: fluyen en un único sentido, de Servidor a Cliente. Un cliente jamás puede replicar una variable hacia el servidor.</p>
+<p>
+<img src="/blog/_20_architecture_reflection_cpp_ue_practical_guide_b.png" alt="img">
+
+</p>
+<ul>
+<li>
+<p>
+
+<code class="kbd border">ReplicatedUsing = FunctionName</code>: Asigna una función RepNotify que el motor ejecuta en los clientes cuando la variable llega modificada desde la red.</p>
+</li>
+<li>
+<p>
+
+<code class="kbd border">DOREPLIFETIME_CONDITION</code>: Permite filtrar qué clientes reciben la variable. Por ejemplo, tu maná solo lo necesita tu propia pantalla (COND_OwnerOnly), ahorrando ancho de banda en los otros 99 jugadores de la partida.</p>
+</li>
+<li>
+<p>El comportamiento en el Servidor: 
+
+<code class="kbd border">OnRep</code> no se ejecuta automáticamente en el servidor. Si estás corriendo un Listen Server (donde el host también juega), debes llamar a la función 
+
+<code class="kbd border">OnRep</code> manualmente tras cambiar el valor para que su propia interfaz gráfica se entere del cambio.</p>
+</li>
+</ul>
+<h1 id="3-remote-procedure-calls-rpcs">3 Remote Procedure Calls (RPCs)</h1>
+<p>Cuando un cliente necesita pedirle algo al servidor (como lanzar un hechizo) o el servidor necesita notificar un evento efímero (como un sonido o partículas), las variables no alcanzan; se usan RPCs.</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Tipo de RPC</th>
+					<th style="text-align: center">¿Quién lo llama?</th>
+					<th style="text-align: right">¿Dónde se ejecuta?</th>
+					<th style="text-align: right">Uso Idea</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">
+
+<code class="kbd border">Server</code></td>
+					<td style="text-align: center">Owning Client</td>
+					<td style="text-align: right">Server</td>
+					<td style="text-align: right">Peticiones críticas (disparar, usar habilidad, comprar)</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">
+
+<code class="kbd border">Client</code></td>
+					<td style="text-align: center">Server</td>
+					<td style="text-align: right">Owning Client</td>
+					<td style="text-align: right">Notificaciones privadas (misiones, logros, alertas UI)</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">
+
+<code class="kbd border">NetMulticast</code></td>
+					<td style="text-align: center">Server</td>
+					<td style="text-align: right">Server + Todos los Clientes</td>
+					<td style="text-align: right">Cosméticos globales (explosiones, sonidos, partículas)</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="el-parámetro-de-fiabilidad-hahahugoshortcode18s14hbhb-vs-hahahugoshortcode18s15hbhb">El Parámetro de Fiabilidad: 
+
+<code class="kbd border">Reliable</code> vs 
+
+<code class="kbd border">Unreliable</code></h2>
+<ul>
+<li>
+<p>
+
+<code class="kbd border">Reliable</code>: Garantiza entrega en orden (retransmite si se pierde). Costoso. Solo para gameplay crítico donde perder un paquete rompería la partida.</p>
+</li>
+<li>
+<p>
+
+<code class="kbd border">Unreliable</code>: Se descarta ante congestión de paquetes UDP. Ideal para cosméticos. Si una partícula no se dibuja en un cliente con lag, el juego continúa sin desincronizar la simulación.</p>
+</li>
+</ul>
+<h1 id="4-validación-antitrampas-hahahugoshortcode18s18hbhb">4: Validación Antitrampas (
+
+<code class="kbd border">WithValidation</code>)</h1>
+<p>Nunca confíes en los datos enviados por un cliente. Al declarar un RPC de tipo 
+
+<code class="kbd border">Server</code>, Unreal Engine permite añadir la etiqueta 
+
+<code class="kbd border">WithValidation</code>, lo que te obliga a implementar una función 
+
+<code class="kbd border">_Validate()</code> en C++:</p>
+<p>
+<img src="/blog/_20_architecture_reflection_cpp_ue_practical_guide_c.png" alt="img">
+
+</p>
+<h1 id="5-implementación-práctica-del-personaje">5: Implementación Práctica del Personaje</h1>
+<p>Uniendo todos los eslabones anteriores, crearemos un personaje que gestione salud autoritativa, habilidad validada por red y efectos visuales en multicast.</p>
+<h2 id="paso-1-dependencias-hahahugoshortcode18s22hbhb">Paso 1: Dependencias (
+
+<code class="kbd border">&lt;TuProyecto&gt;.Build.cs</code>)</h2>
+<p>Asegúrate de tener incluido el módulo de red 
+
+<code class="kbd border">NetCore</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>PublicDependencyModuleNames.AddRange(<span style="color:#ff79c6">new</span> <span style="color:#8be9fd">string</span>[] { 
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#34;Core&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#34;CoreUObject&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#34;Engine&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#34;InputCore&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#34;NetCore&#34;</span> <span style="color:#6272a4">// Requerido para macros avanzadas de red</span>
+</span></span><span style="display:flex;"><span>});</span></span></code></pre></div>
+<h2 id="paso-2-definición-de-la-clase-hahahugoshortcode18s25hbhb">Paso 2: Definición de la Clase (
+
+<code class="kbd border">NetCharacter.h</code>)</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#ff79c6">#pragma once
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;CoreMinimal.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;GameFramework/Character.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;NetCharacter.generated.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>CLASS()
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">YOURPROJECT_API</span> <span style="color:#8be9fd;font-style:italic">ANetCharacter</span> : <span style="color:#ff79c6">public</span> ACharacter
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    GENERATED_BODY()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">public</span><span style="color:#ff79c6">:</span>
+</span></span><span style="display:flex;"><span>    ANetCharacter();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Registro obligatorio de variables replicadas
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">virtual</span> <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">GetLifetimeReplicatedProps</span>(TArray<span style="color:#ff79c6">&lt;</span>FLifetimeProperty<span style="color:#ff79c6">&gt;&amp;</span> OutLifetimeProps) <span style="color:#ff79c6">const</span> <span style="color:#ff79c6">override</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Disparado por el input local (tecla de habilidad)
+</span></span></span><span style="display:flex;"><span>    UFUNCTION(BlueprintCallable, Category <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Gameplay&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">void</span> CastAbility();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Modificación de salud autoritativa
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">virtual</span> <span style="color:#8be9fd">float</span> <span style="color:#50fa7b">TakeDamage</span>(<span style="color:#8be9fd">float</span> DamageAmount, <span style="color:#ff79c6">struct</span> <span style="color:#50fa7b">FDamageEvent</span> <span style="color:#ff79c6">const</span><span style="color:#ff79c6">&amp;</span> DamageEvent, 
+</span></span><span style="display:flex;"><span>                             <span style="color:#ff79c6">class</span> <span style="color:#50fa7b">AController</span><span style="color:#ff79c6">*</span> EventInstigator, AActor<span style="color:#ff79c6">*</span> DamageCauser) <span style="color:#ff79c6">override</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">protected</span><span style="color:#ff79c6">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// --- ESTADO REPLICADO ---
+</span></span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Salud: visible para todos, ejecuta OnRep al sincronizar
+</span></span></span><span style="display:flex;"><span>    UPROPERTY(ReplicatedUsing <span style="color:#ff79c6">=</span> OnRep_CurrentHealth, VisibleAnywhere, Category <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Stats&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">float</span> CurrentHealth;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    UPROPERTY(EditDefaultsOnly, Category <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Stats&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">float</span> MaxHealth <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">100.0f</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Maná: solo se replica al cliente propietario (optimización de ancho de banda)
+</span></span></span><span style="display:flex;"><span>    UPROPERTY(Replicated, VisibleAnywhere, Category <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Stats&#34;</span>)
+</span></span><span style="display:flex;"><span>    int32 ManaPoints;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    UFUNCTION()
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">void</span> OnRep_CurrentHealth(<span style="color:#8be9fd">float</span> OldHealth);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// --- RPCs ---
+</span></span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// El cliente solicita al servidor ejecutar la habilidad con validación estricta
+</span></span></span><span style="display:flex;"><span>    UFUNCTION(Server, Reliable, WithValidation)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">void</span> Server_CastAbility();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// El servidor avisa a todos los clientes que reproduzcan los efectos visuales
+</span></span></span><span style="display:flex;"><span>    UFUNCTION(NetMulticast, Unreliable)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">void</span> Multicast_PlayAbilityFX();
+</span></span><span style="display:flex;"><span>};</span></span></code></pre></div>
+<h2 id="paso-3-lógica-autoritativa-y-replicación-hahahugoshortcode18s27hbhb">Paso 3: Lógica Autoritativa y Replicación (
+
+<code class="kbd border">NetCharacter.cpp</code>)</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;NetCharacter.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;Net/UnrealNetwork.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&#34;Engine/Engine.h&#34;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ANetCharacter<span style="color:#ff79c6">::</span>ANetCharacter()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Habilitar replicación de red en el Actor
+</span></span></span><span style="display:flex;"><span>    bReplicates <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">true</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Optimización: tasa de sincronización de red
+</span></span></span><span style="display:flex;"><span>    NetUpdateFrequency <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">66.0f</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    CurrentHealth <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">100.0f</span>;
+</span></span><span style="display:flex;"><span>    ManaPoints <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">50</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> ANetCharacter<span style="color:#ff79c6">::</span>GetLifetimeReplicatedProps(TArray<span style="color:#ff79c6">&lt;</span>FLifetimeProperty<span style="color:#ff79c6">&gt;&amp;</span> OutLifetimeProps) <span style="color:#ff79c6">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    Super<span style="color:#ff79c6">::</span>GetLifetimeReplicatedProps(OutLifetimeProps);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Replicar salud a todas las máquinas conectadas
+</span></span></span><span style="display:flex;"><span>    DOREPLIFETIME(ANetCharacter, CurrentHealth);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// [OPTIMIZACIÓN]: Maná solo viaja al dueño de este peón (OwnerOnly)
+</span></span></span><span style="display:flex;"><span>    DOREPLIFETIME_CONDITION(ANetCharacter, ManaPoints, COND_OwnerOnly);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> ANetCharacter<span style="color:#ff79c6">::</span>CastAbility()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// 1. Verificación de propiedad: solo el cliente dueño puede enviar este input
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (<span style="color:#ff79c6">!</span>IsLocallyControlled())
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// 2. Predicción de UI del lado del cliente: chequeo rápido antes de emitir tráfico
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (ManaPoints <span style="color:#ff79c6">&lt;</span> <span style="color:#bd93f9">10</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">if</span> (GEngine) GEngine<span style="color:#ff79c6">-&gt;</span>AddOnScreenDebugMessage(<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">2.0f</span>, FColor<span style="color:#ff79c6">::</span>Yellow, TEXT(<span style="color:#f1fa8c">&#34;[Cliente] Maná insuficiente.&#34;</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// 3. Invocar RPC Server (Unreal lo encamina automáticamente al servidor)
+</span></span></span><span style="display:flex;"><span>    Server_CastAbility();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">// VALIDACIÓN ANTITRAMPAS (Corre en el Servidor antes de la implementación)
+</span></span></span><span style="display:flex;"><span><span style="color:#8be9fd">bool</span> ANetCharacter<span style="color:#ff79c6">::</span>Server_CastAbility_Validate()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">const</span> int32 AbilityCost <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">10</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// El servidor comprueba si la petición es físicamente y lógicamente posible
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (CurrentHealth <span style="color:#ff79c6">&lt;=</span> <span style="color:#bd93f9">0.0f</span> <span style="color:#ff79c6">||</span> ManaPoints <span style="color:#ff79c6">&lt;</span> AbilityCost)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">// Retornar false indica paquete anómalo / intento de exploit
+</span></span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#8be9fd;font-style:italic">false</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> <span style="color:#8be9fd;font-style:italic">true</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">// EJECUCIÓN AUTORITATIVA (Corre exclusivamente en el Servidor)
+</span></span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> ANetCharacter<span style="color:#ff79c6">::</span>Server_CastAbility_Implementation()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">const</span> int32 AbilityCost <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">10</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Mutación autoritativa del estado
+</span></span></span><span style="display:flex;"><span>    ManaPoints <span style="color:#ff79c6">-=</span> AbilityCost;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Ordenar a todos los clientes que reproduzcan el cosmético
+</span></span></span><span style="display:flex;"><span>    Multicast_PlayAbilityFX();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (GEngine)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        GEngine<span style="color:#ff79c6">-&gt;</span>AddOnScreenDebugMessage(<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">3.0f</span>, FColor<span style="color:#ff79c6">::</span>Green, 
+</span></span><span style="display:flex;"><span>            FString<span style="color:#ff79c6">::</span>Printf(TEXT(<span style="color:#f1fa8c">&#34;[Servidor] Habilidad aprobada. Maná restante: %d&#34;</span>), ManaPoints));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">// EFECTO COSMÉTICO (Corre en Servidor y todos los Clientes remotos)
+</span></span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> ANetCharacter<span style="color:#ff79c6">::</span>Multicast_PlayAbilityFX_Implementation()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Al ser Unreliable, si hay congestión de red no bloqueará datos críticos
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (GEngine)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        GEngine<span style="color:#ff79c6">-&gt;</span>AddOnScreenDebugMessage(<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">2.5f</span>, FColor<span style="color:#ff79c6">::</span>Cyan, 
+</span></span><span style="display:flex;"><span>            FString<span style="color:#ff79c6">::</span>Printf(TEXT(<span style="color:#f1fa8c">&#34;[FX] Partículas y sonido reproducidos en NetMode: %d&#34;</span>), (int32)GetNetMode()));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">float</span> ANetCharacter<span style="color:#ff79c6">::</span>TakeDamage(<span style="color:#8be9fd">float</span> DamageAmount, FDamageEvent <span style="color:#ff79c6">const</span><span style="color:#ff79c6">&amp;</span> DamageEvent, 
+</span></span><span style="display:flex;"><span>                               AController<span style="color:#ff79c6">*</span> EventInstigator, AActor<span style="color:#ff79c6">*</span> DamageCauser)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Regla de Oro: Solo el Servidor tiene potestad de reducir salud
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (<span style="color:#ff79c6">!</span>HasAuthority())
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#bd93f9">0.0f</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">const</span> <span style="color:#8be9fd">float</span> ActualDamage <span style="color:#ff79c6">=</span> Super<span style="color:#ff79c6">::</span>TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">const</span> <span style="color:#8be9fd">float</span> OldHealth <span style="color:#ff79c6">=</span> CurrentHealth;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    CurrentHealth <span style="color:#ff79c6">=</span> FMath<span style="color:#ff79c6">::</span>Clamp(CurrentHealth <span style="color:#ff79c6">-</span> ActualDamage, <span style="color:#bd93f9">0.0f</span>, MaxHealth);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// En el Servidor, OnRep no se invoca automáticamente; lo llamamos manualmente para coherencia de eventos
+</span></span></span><span style="display:flex;"><span>    OnRep_CurrentHealth(OldHealth);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> ActualDamage;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> ANetCharacter<span style="color:#ff79c6">::</span>OnRep_CurrentHealth(<span style="color:#8be9fd">float</span> OldHealth)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Se ejecuta en clientes receptores cuando llega la variable modificada
+</span></span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (GEngine)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        GEngine<span style="color:#ff79c6">-&gt;</span>AddOnScreenDebugMessage(<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">4.0f</span>, FColor<span style="color:#ff79c6">::</span>Red, 
+</span></span><span style="display:flex;"><span>            FString<span style="color:#ff79c6">::</span>Printf(TEXT(<span style="color:#f1fa8c">&#34;[OnRep] Salud actualizada de %.1f a %.1f&#34;</span>), OldHealth, CurrentHealth));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// Aquí actualizarías el porcentaje de tu ProgressBar en UMG:
+</span></span></span><span style="display:flex;"><span>    <span style="color:#6272a4">// HealthProgressBar-&gt;SetPercent(CurrentHealth / MaxHealth);
+</span></span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h1 id="6-verificación-en-el-editor-con-latencia-simulada">6: Verificación en el Editor con Latencia Simulada</h1>
+<p>Probar multijugador con latencia cero en tu propia máquina oculta errores de sincronización y condiciones de carrera. Para simular condiciones reales:</p>
+<h2 id="paso-1">Paso 1:</h2>
+<p>En el editor, ve al botón desplegable de Play, Configura <strong>Number of Players</strong> en 
+
+<code class="kbd border">2</code> y Net Mode en 
+
+<code class="kbd border">Play As Listen Server</code> o 
+
+<code class="kbd border">Play As Client</code></p>
+<h2 id="paso-2">Paso 2:</h2>
+<p>En la ventana del cliente, abre la consola (
+
+<code class="kbd border">~</code>) y simula una conexión deficiente con 200 ms de ping y 5% de pérdida de paquetes:</p>
+<p>
+
+<code class="kbd border">Net PktLag=200</code>
+
+
+<code class="kbd border">Net PktLoss=5</code></p>
+<h2 id="paso-3">Paso 3:</h2>
+<p>Llama a 
+
+<code class="kbd border">CastAbility</code>:</p>
+<ul>
+<li>
+<p>Observa cómo el RPC 
+
+<code class="kbd border">Server_CastAbility</code>  espera los 200 ms para validar en el servidor sin desincronizar la simulación.</p>
+</li>
+<li>
+<p>El evento 
+
+<code class="kbd border">Multicast_PlayAbilityFX</code> reproduce el efecto cosmético de forma desacoplada.</p>
+</li>
+<li>
+<p>Al aplicar daño en el servidor, 
+
+<code class="kbd border">OnRep_CurrentHealth</code> actualiza la salud del cliente sin que el cliente haya tenido que solicitarla por un RPC manual.</p>
+</li>
+</ul>
+<p>Apoya el contenido de mi blog a través de:</p>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#ff5f5f', 'V7V44K41U');kofiwidget2.draw();</script> 
+<p>Fuente:</p>
+<ul>
+<li>
+
+
+
+<span class="source-post">
+    
+    <a class="link" href="https://dev.epicgames.com/documentation/unreal-engine/networking-and-multiplayer-in-unreal-engine" target="_blank">Unreal Engine: Networking and Multiplayer</a>
+    
+</span>
+
+
+
+</li>
+<li>
+
+
+
+<span class="source-post">
+    
+    <a class="link" href="https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-5-8-documentation" target="_blank">Documentación de Unreal Engine 5.8</a>
+    
+</span>
+
+
+
+</li>
+</ul>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#ff5f5f', 'V7V44K41U');kofiwidget2.draw();</script> 
+
+    </div>
+
+    
+    
+    <div class="container container-wrapper">
+        <nav>
+            <ul class="d-flex j-content-start">
+                <li>
+    <a class="tag" style="vertical-align: middle;" href="/tags/cpp/">cpp</a>
+</li>
+<li>
+    <a class="tag" style="vertical-align: middle;" href="/tags/unreal/">unreal</a>
+</li>
+
+            </ul>
+        </nav>
+    </div>
+    
+    
+
+    
+
+    
+    <div class="container">
+        <div class="navigation d-flex j-content-space-between a-items-center">
+            <div class=" w-50">
+                
+            </div>
+            <div class="w-50">
+                
+                <a href="https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/">
+                    <div class="d-flex j-content-end a-items-center">
+                        <p class="margin-remove text-align-right">Arquitectura de Memoria, Reflexión y C++ … </p>
+                        <i class="fas fa-2x fa-arrow-right"></i>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="navigation mobile d-flex j-content-space-between a-items-center">
+            <div>
+                
+            </div>
+            <div>
+                
+                <a href="https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/">
+                    <p class="margin-remove text-align-right"><i class="fas fa-arrow-right"></i></p>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+<div id="alert" class="copy-alert d-flex j-content-center a-items-center">
+    <div class="text-alert text-align-center border position-relative">
+        <span>Copiado!</span>
+    </div>
+</div>
+
+        </div><footer id="footer" class="footer-component animated fadeInDown">
+    <div class="container">
+        
+        <nav class="social-navigation d-flex j-content-center a-items-center">
+            <ul class="separate-list d-flex j-content-space-between text-align-center">
+                
+                <li>
+                    <a class="font-weight-600 border" href="https://www.linkedin.com/in/jonatansosa/" rel="me" aria-label="LinkedIn" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in text-highlight" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+                </li>
+                
+                <li>
+                    <a class="font-weight-600 border" href="https://www.youtube.com/@yeonat" rel="me" aria-label="Youtube" target="_blank" title="Youtube">
+                    <i class="fab fa-youtube text-highlight" aria-hidden="true"></i>
+                    Youtube
+                </a>
+                </li>
+                
+                <li>
+                    <a class="font-weight-600 border" href="https://yeonat.itch.io/" rel="me" aria-label="Itch.io" target="_blank" title="Itch.io">
+                    <i class="fab fa-itch-io text-highlight" aria-hidden="true"></i>
+                    Itch.io
+                </a>
+                </li>
+                
+            </ul>
+        </nav>
+        
+        
+        <span class="opace-color secondary-text-color text-align-center">Hecho con <a class="link d-inline-block " href="https://gohugo.io/">Hugo</a> y alojado en <a class="link d-inline-block" href="https://github.com/">Github</a> <br>
+            <a class="link d-inline-block" href="https://x.com/yeonat_">yeonat</a> ©2022-2026</span>
+        
+    </div>
+    <a href="#" id="scroll-to-top" class="return-button gist border">
+        <i class="fa-solid fa-up-long"></i>
+    </a>
+</footer></body>
+
+
+<script type="text/javascript" src="https://www.yeonat.dev/js/yeonat-scroll-to-top.min.bcc4a73a29a4e860be9fc0b76d88d4d0742ca808c8392120ce214506a31dc8e5.js" integrity="sha256-vMSnOimk6GC&#43;n8C3bYjU0HQsqAjIOSEgziFFBqMdyOU=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://www.yeonat.dev/js/yeonat-copy-to-clipboard.min.8b3aa716eab73e8e5e8146fb5e5fe80229b4aadf74269ceed350986048342b76.js" integrity="sha256-izqnFuq3Po5egUb7Xl/oAim0qt90Jpzu01CYYEg0K3Y=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://www.yeonat.dev/js/yeonat-burger-btn.min.543ad6655f53e2de59b16ad3dbeee3172db498c39eb36b88fe53c66f5628d576.js" integrity="sha256-VDrWZV9T4t5ZsWrT2&#43;7jFy20mMOes2uI/lPGb1Yo1XY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://www.yeonat.dev/js/medium-zoom.min.1e0f283fdf1e793b5336317f306ffa49d885aa9ff599ae9d1d6eb1b0ec44b489.js" integrity="sha256-Hg8oP98eeTtTNjF/MG/6SdiFqp/1ma6dHW6xsOxEtIk=" crossorigin="anonymous"></script>
+
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('yeonat', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#ff5f5f',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+</html>
