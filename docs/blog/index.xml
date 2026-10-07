@@ -15,9 +15,9 @@
 			<atom:link href="https://www.yeonat.dev/blog/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Arquitectura de Memoria, Reflexión y C&#43;&#43; en Unreal Engine: Guía Práctica</title>
-				<link>https://www.yeonat.dev/blog/architecture_reflection_cpp_ue_practical_guide/</link>
+				<link>https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/</link>
 				<pubDate>Mon, 05 Oct 2026 17:31:27 -0500</pubDate>
-				<guid>https://www.yeonat.dev/blog/architecture_reflection_cpp_ue_practical_guide/</guid>
+				<guid>https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/</guid>
 				<description>&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/fichas-de-juego-coloridas-esparcidas-en-una-cuadricula-RxAyATWag6A&#34; target=&#34;_blank&#34;&gt;Imagen por Parinaz Mirhosseini.&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Uno de los mayores choques culturales al pasar de C++ estándar a Unreal Engine es descubrir que el motor no utiliza punteros convencionales para gestionar el ciclo de vida de sus objetos principales.&lt;/p&gt;&#xA;&lt;p&gt;Confiar en &#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;new/delete&lt;/code&gt; o punteros crudos (&#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;UObject*&lt;/code&gt;) conduce inevitablemente a los dos peores dolores de cabeza en producción:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Memory leaks&lt;/strong&gt; causados por objetos fuera del alcance del &lt;em&gt;Garbage Collector&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crashes por dangling pointers&lt;/strong&gt; cuando intentas acceder a punteros destruidos por el &lt;em&gt;Garbage Collector (GC)&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;En este artículo exploraremos la arquitectura de memoria interna de &lt;strong&gt;Unreal Engine&lt;/strong&gt;, su sistema de reflexión y cómo implementar un sistema de inventario modular con streaming asíncrono y control por consola.&lt;/p&gt;</description>
 			</item>
 			<item>
