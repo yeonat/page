@@ -35,6 +35,7 @@
     
     
     <script type="text/javascript" src="https://www.yeonat.dev/js/yeonat-theme.min.26ca13e73538f2e8c06a988c59ff7b0c2fe18c0326bf1e9018e45bf491e9929b.js" integrity="sha256-JsoT5zU48ujAapiMWf97DC/hjAMmvx6QGORb9JHpkps=" crossorigin="anonymous"></script>
+    
   </head><body>
 
 
@@ -379,7 +380,7 @@
 <p>En este artículo exploraremos la arquitectura de memoria interna de <strong>Unreal Engine</strong>, su sistema de reflexión y cómo implementar un sistema de inventario modular con streaming asíncrono y control por consola.</p>
 <h1 id="1-fundamentos-memoria-nativa-vs-memoria-gestionada">1. Fundamentos: Memoria Nativa vs. Memoria Gestionada</h1>
 <p>Unreal Engine divide el universo de memoria en dos grandes ecosistemas (que nunca deben mezclarse):</p>
-<h2 id="a-tipos-nativos-de-c-no-hahahugoshortcode11s3hbhb">A. Tipos Nativos de C++ (No-
+<h2 id="a-tipos-nativos-de-c-no-hahahugoshortcode16s3hbhb">A. Tipos Nativos de C++ (No-
 
 <code class="kbd border">UObject</code>)</h2>
 <p>Para clases y estructuras estándar que no heredan de 
@@ -400,7 +401,7 @@
 
 <code class="kbd border">std::unique_ptr</code>).</li>
 </ul>
-<h2 id="b-tipos-gestionados-por-el-garbage-collector-hahahugoshortcode11s10hbhb">B. Tipos Gestionados por el Garbage Collector (
+<h2 id="b-tipos-gestionados-por-el-garbage-collector-hahahugoshortcode16s10hbhb">B. Tipos Gestionados por el Garbage Collector (
 
 <code class="kbd border">UObject</code>)</h2>
 <p>Cualquier clase derivada de 
@@ -458,7 +459,7 @@
 <code class="kbd border">USTRUCT(Exec)</code>).</p>
 </li>
 </ul>
-<h2 id="la-dualidad-de-las-interfaces-hahahugoshortcode11s26hbhb-vs-hahahugoshortcode11s27hbhb">La dualidad de las Interfaces (
+<h2 id="la-dualidad-de-las-interfaces-hahahugoshortcode16s26hbhb-vs-hahahugoshortcode16s27hbhb">La dualidad de las Interfaces (
 
 <code class="kbd border">UInterface</code> vs 
 
@@ -499,7 +500,7 @@
 </ul>
 <h1 id="ejercicio-práctico">Ejercicio Práctico</h1>
 <p>Vamos a implementar un inventario modular que carga mallas asíncronamente y permite probar el GC de forma segura.</p>
-<h2 id="paso-1-la-interfaz-hahahugoshortcode11s35hbhb">Paso 1: La Interfaz (
+<h2 id="paso-1-la-interfaz-hahahugoshortcode16s35hbhb">Paso 1: La Interfaz (
 
 <code class="kbd border">ItemModifierInterface.h</code>)</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#ff79c6">#pragma once
@@ -521,7 +522,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#ff79c6">public</span><span style="color:#ff79c6">:</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">virtual</span> <span style="color:#8be9fd">void</span> ApplyModifier(<span style="color:#ff79c6">class</span> <span style="color:#50fa7b">AActor</span><span style="color:#ff79c6">*</span> TargetActor) <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>;
 </span></span><span style="display:flex;"><span>};</span></span></code></pre></div>
-<h2 id="paso-2-la-definición-de-datos-y-el-ítem-hahahugoshortcode11s37hbhb">Paso 2: La Definición de Datos y el Ítem (
+<h2 id="paso-2-la-definición-de-datos-y-el-ítem-hahahugoshortcode16s37hbhb">Paso 2: La Definición de Datos y el Ítem (
 
 <code class="kbd border">ItemData.h</code>)</h2>
 <p>Observa cómo el 
@@ -571,7 +572,7 @@
 </span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">*</span>Data.ItemName.ToString(), Data.PowerValue);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};</span></span></code></pre></div>
-<h2 id="paso-3-el-gestor-de-inventario-hahahugoshortcode11s42hbhb">Paso 3: El Gestor de Inventario (
+<h2 id="paso-3-el-gestor-de-inventario-hahahugoshortcode16s42hbhb">Paso 3: El Gestor de Inventario (
 
 <code class="kbd border">InventoryComponent</code>)</h2>
 <p>Este componente gestiona las referencias fuertes para el GC, ofrece protección con punteros débiles y expone un delegado dinámico para sincronizar la UI en tiempo real.</p>
