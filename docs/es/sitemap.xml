@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yeonat.dev/tags/cpp/</loc>
-    <lastmod>2026-10-06T18:31:06-05:00</lastmod>
+    <lastmod>2026-10-07T10:37:07-05:00</lastmod>
   </url><url>
-    <loc>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</loc>
-    <lastmod>2026-10-06T18:31:06-05:00</lastmod>
+    <loc>https://www.yeonat.dev/blog/optimization-and-profiling-in-ue-cpp/</loc>
+    <lastmod>2026-10-07T10:37:07-05:00</lastmod>
   </url><url>
     <loc>https://www.yeonat.dev/tags/</loc>
-    <lastmod>2026-10-06T18:31:06-05:00</lastmod>
+    <lastmod>2026-10-07T10:37:07-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -22,6 +22,9 @@
                 />
   </url><url>
     <loc>https://www.yeonat.dev/tags/unreal/</loc>
+    <lastmod>2026-10-07T10:37:07-05:00</lastmod>
+  </url><url>
+    <loc>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</loc>
     <lastmod>2026-10-06T18:31:06-05:00</lastmod>
   </url><url>
     <loc>https://www.yeonat.dev/blog/architecture-reflection-cpp-ue-practical-guide/</loc>
