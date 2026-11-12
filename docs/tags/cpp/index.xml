@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 07 Oct 2026 10:37:07 -0500</lastBuildDate>
+			<lastBuildDate>Wed, 07 Oct 2026 21:27:19 -0500</lastBuildDate>
 		
 			<atom:link href="https://www.yeonat.dev/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Matemáticas 3D y Balística Predictiva en Unreal Engine C&#43;&#43;: De Vectores a Cuaterniones</title>
+				<link>https://www.yeonat.dev/blog/3d-mathematics-in-game-engines/</link>
+				<pubDate>Wed, 07 Oct 2026 21:27:19 -0500</pubDate>
+				<guid>https://www.yeonat.dev/blog/3d-mathematics-in-game-engines/</guid>
+				<description>&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-coleccion-de-pogs-pokemon-coloridos-y-slammers-de-poke-ball-HZSrGo9Kldw&#34; target=&#34;_blank&#34;&gt;Imagen por Emre Turkan.&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Programar mecánicas de combate, seguimiento de proyectiles o cámaras en videojuegos requiere una base sólida de álgebra lineal y trigonometría. Confiar en soluciones aproximadas suele provocar rotaciones extrañas (&lt;em&gt;Gimbal Lock&lt;/em&gt;), disparos que quedan siempre por detrás del objetivo o caídas imprevistas por punteros colgantes.&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-producto-punto-a--b-y-conos-de-detección&#34;&gt;1: Producto Punto &lt;em&gt;(A . B)&lt;/em&gt; y Conos de Detección&lt;/h1&gt;&#xA;&lt;p&gt;El producto punto relaciona algebraicamente dos vectores mediante el coseno del ángulo comprendido entre ellos:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Optimización y Profiling en Unreal Engine C&#43;&#43;: Guía práctica</title>
 				<link>https://www.yeonat.dev/blog/optimization-and-profiling-in-ue-cpp/</link>
@@ -25,7 +32,7 @@
 				<link>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</link>
 				<pubDate>Tue, 06 Oct 2026 18:31:06 -0500</pubDate>
 				<guid>https://www.yeonat.dev/blog/authoritative-network-model-in-unreal-engine/</guid>
-				<description>&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-mesa-cubierta-con-controladores-de-juegos-de-nintendo-y-un-televisor-B653c4q7m5Y&#34; target=&#34;_blank&#34;&gt;Imagen por Andrei Marinho.&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;El mayor error al abordar el multijugador en Unreal Engine es programar pensando como si el juego corriera en una sola máquina. En un entorno de red, cada acción debe responder a tres preguntas: ¿Quién tiene la verdad?, ¿Por dónde viaja el dato? y ¿Cómo evitamos que un cliente haga trampa o sature la red?&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-el-modelo-de-autoridad-hahahugoshortcode20s1hbhb&#34;&gt;1: El Modelo de Autoridad (&#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;HasAuthority&lt;/code&gt;)&lt;/h1&gt;&#xA;&lt;p&gt;En &lt;strong&gt;Unreal Engine&lt;/strong&gt; el servidor es el árbitro absoluto del estado del juego. Los clientes son terminales que envían intenciones (&lt;em&gt;inputs&lt;/em&gt;) y reciben la simulación resultante.&lt;/p&gt;</description>
+				<description>&lt;a class=&#34;link d-inline-block&#34; href=&#34;https://unsplash.com/es/fotos/una-mesa-cubierta-con-controladores-de-juegos-de-nintendo-y-un-televisor-B653c4q7m5Y&#34; target=&#34;_blank&#34;&gt;Imagen por Andrei Marinho.&lt;/a&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;El mayor error al abordar el multijugador en Unreal Engine es programar pensando como si el juego corriera en una sola máquina. En un entorno de red, cada acción debe responder a tres preguntas: ¿Quién tiene la verdad?, ¿Por dónde viaja el dato? y ¿Cómo evitamos que un cliente haga trampa o sature la red?&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-el-modelo-de-autoridad-hahahugoshortcode19s1hbhb&#34;&gt;1: El Modelo de Autoridad (&#xD;&#xA;&#xD;&#xA;&lt;code class=&#34;kbd border&#34;&gt;HasAuthority&lt;/code&gt;)&lt;/h1&gt;&#xA;&lt;p&gt;En &lt;strong&gt;Unreal Engine&lt;/strong&gt; el servidor es el árbitro absoluto del estado del juego. Los clientes son terminales que envían intenciones (&lt;em&gt;inputs&lt;/em&gt;) y reciben la simulación resultante.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Arquitectura de Memoria, Reflexión y C&#43;&#43; en Unreal Engine: Guía Práctica</title>
